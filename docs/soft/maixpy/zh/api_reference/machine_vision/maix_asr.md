@@ -11,10 +11,10 @@ desc: maixpy doc: maix_asr（语音识别模块）
 
 maix_asr 构造参数如下：
 
-- [address] 烧写声学模型的 Flash 地址。
-- [i2s] 录音设备，默认使用 I2S.DEVICE_0 。
-- [dmac] 录音所使用的 DMA 通道，默认使用【通道 3】。
-- [shift] 声道选择，Maix 系列的硬件录音设备通常为单声道输入，设置 0 为左声道，所以 1 为右声道。
+- `address` 烧写声学模型的 Flash 地址。
+- `i2s` 录音设备，默认使用 I2S.DEVICE_0 。
+- `dmac` 录音所使用的 DMA 通道，默认使用【通道 3】。
+- `shift` 声道选择，Maix 系列的硬件录音设备通常为单声道输入，设置 0 为左声道，所以 1 为右声道。
 
 ```python
 from speech_recognizer import asr

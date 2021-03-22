@@ -37,6 +37,24 @@
             <priority>1.0</priority>
         </url>
         <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_tof.html</loc>
+            <lastmod>2021-03-17T10:30:34.397204</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_weather.html</loc>
+            <lastmod>2021-03-17T10:30:34.397204</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/index.html</loc>
+            <lastmod>2021-03-17T10:30:34.386245</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
             <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_psram.html</loc>
             <lastmod>2021-03-17T10:30:34.396204</lastmod>
             <changefreq>weekly</changefreq>
@@ -61,20 +79,26 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_tof.html</loc>
-            <lastmod>2021-03-17T10:30:34.397204</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixpy_develop_kit_board/maix_cube.html</loc>
+            <lastmod>2021-03-17T10:30:34.391218</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_weather.html</loc>
-            <lastmod>2021-03-17T10:30:34.397204</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixpy_develop_kit_board/maix_duino.html</loc>
+            <lastmod>2021-03-17T10:30:34.391218</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/index.html</loc>
-            <lastmod>2021-03-17T10:30:34.386245</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_bt.html</loc>
+            <lastmod>2021-03-17T10:30:34.392214</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_eink.html</loc>
+            <lastmod>2021-03-17T10:30:34.392214</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -99,30 +123,6 @@
         <url>
             <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_micarray.html</loc>
             <lastmod>2021-03-17T10:30:34.395207</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixpy_develop_kit_board/maix_cube.html</loc>
-            <lastmod>2021-03-17T10:30:34.391218</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixpy_develop_kit_board/maix_duino.html</loc>
-            <lastmod>2021-03-17T10:30:34.391218</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_bt.html</loc>
-            <lastmod>2021-03-17T10:30:34.392214</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_eink.html</loc>
-            <lastmod>2021-03-17T10:30:34.392214</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -217,24 +217,6 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_rfid.html</loc>
-            <lastmod>2021-03-17T10:30:34.383238</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_servo.html</loc>
-            <lastmod>2021-03-17T10:30:34.384235</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_tof.html</loc>
-            <lastmod>2021-03-17T10:30:34.384235</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
             <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/README_en.html</loc>
             <lastmod>2021-03-17T10:30:34.379250</lastmod>
             <changefreq>weekly</changefreq>
@@ -249,6 +231,24 @@
         <url>
             <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_eink.html</loc>
             <lastmod>2021-03-17T10:30:34.380247</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_rfid.html</loc>
+            <lastmod>2021-03-17T10:30:34.383238</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_servo.html</loc>
+            <lastmod>2021-03-17T10:30:34.384235</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_tof.html</loc>
+            <lastmod>2021-03-17T10:30:34.384235</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -439,6 +439,18 @@
             <priority>1.0</priority>
         </url>
         <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/others/mlx90640.html</loc>
+            <lastmod>2021-03-22T08:50:00.800396</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/others/onewire.html</loc>
+            <lastmod>2021-03-22T08:50:00.800396</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/others/index.html</loc>
             <lastmod>2021-03-22T08:50:00.798400</lastmod>
             <changefreq>weekly</changefreq>
@@ -458,49 +470,49 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/sp_mod/sp_bt.html</loc>
-            <lastmod>2021-03-22T08:50:00.802391</lastmod>
+            <lastmod>2021-03-22T14:16:40.448678</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/sp_mod/sp_eink.html</loc>
-            <lastmod>2021-03-22T08:50:00.802391</lastmod>
+            <lastmod>2021-03-22T14:24:40.488260</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/sp_mod/sp_ethernet.html</loc>
-            <lastmod>2021-03-22T08:50:00.803469</lastmod>
+            <lastmod>2021-03-22T14:27:04.787150</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/sp_mod/sp_lcd1.14.html</loc>
-            <lastmod>2021-03-22T08:50:00.803558</lastmod>
+            <lastmod>2021-03-22T14:28:02.882301</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/sp_mod/sp_lora.html</loc>
-            <lastmod>2021-03-22T08:50:00.803558</lastmod>
+            <lastmod>2021-03-22T14:28:51.714348</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/sp_mod/sp_rfid.html</loc>
-            <lastmod>2021-03-22T08:50:00.804556</lastmod>
+            <lastmod>2021-03-22T14:29:37.142317</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/sp_mod/sp_tof.html</loc>
-            <lastmod>2021-03-22T08:50:00.804556</lastmod>
+            <lastmod>2021-03-22T14:21:30.275170</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/sp_mod/sp_weather.html</loc>
-            <lastmod>2021-03-22T08:50:00.805553</lastmod>
+            <lastmod>2021-03-22T14:31:23.278424</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -524,7 +536,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/index.html</loc>
-            <lastmod>2021-03-22T13:53:21.709224</lastmod>
+            <lastmod>2021-03-22T13:59:45.007574</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -799,6 +811,18 @@
             <priority>1.0</priority>
         </url>
         <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/knowledge_micropython.html</loc>
+            <lastmod>2021-03-22T14:35:33.940944</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/knowledge_prepare.html</loc>
+            <lastmod>2021-03-22T08:50:00.789425</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/maixpy_get_started_video.html</loc>
             <lastmod>2021-03-22T08:50:00.790422</lastmod>
             <changefreq>weekly</changefreq>
@@ -818,7 +842,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/upgrade_maixpy_firmware.html</loc>
-            <lastmod>2021-03-22T08:50:00.791420</lastmod>
+            <lastmod>2021-03-22T15:10:11.874636</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -937,18 +961,6 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/others/mlx90640.html</loc>
-            <lastmod>2021-03-22T08:50:00.800396</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/others/onewire.html</loc>
-            <lastmod>2021-03-22T08:50:00.800396</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/firmware/compile.html</loc>
             <lastmod>2021-03-22T08:50:00.779450</lastmod>
             <changefreq>weekly</changefreq>
@@ -968,13 +980,13 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/board_info.html</loc>
-            <lastmod>2021-03-22T08:50:00.701661</lastmod>
+            <lastmod>2021-03-22T13:59:45.864710</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/env_install_driver.html</loc>
-            <lastmod>2021-03-22T08:50:00.780448</lastmod>
+            <lastmod>2021-03-22T14:50:19.516004</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1016,7 +1028,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/get_started_led_blink.html</loc>
-            <lastmod>2021-03-22T08:50:00.783452</lastmod>
+            <lastmod>2021-03-22T15:13:11.022054</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1033,8 +1045,26 @@
             <priority>1.0</priority>
         </url>
         <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/install_driver/ai_hat.html</loc>
+            <lastmod>2021-03-22T15:00:24.036531</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/install_driver/amigo.html</loc>
+            <lastmod>2021-03-22T15:00:04.652230</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/install_driver/bit.html</loc>
             <lastmod>2021-03-22T08:50:00.785434</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/install_driver/cube.html</loc>
+            <lastmod>2021-03-22T15:00:40.708027</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1046,12 +1076,6 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/install_driver/duino.html</loc>
-            <lastmod>2021-03-22T08:50:00.786432</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/install_driver/ft2232.html</loc>
             <lastmod>2021-03-22T08:50:00.786432</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
@@ -1076,7 +1100,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/knowledge_git_github.html</loc>
-            <lastmod>2021-03-22T08:50:00.788429</lastmod>
+            <lastmod>2021-03-22T14:45:39.228523</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1087,14 +1111,146 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/knowledge_micropython.html</loc>
-            <lastmod>2021-03-22T08:50:00.789425</lastmod>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/standard/ure.html</loc>
+            <lastmod>2021-03-22T08:50:00.727587</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/knowledge_prepare.html</loc>
-            <lastmod>2021-03-22T08:50:00.789425</lastmod>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/standard/usocket.html</loc>
+            <lastmod>2021-03-22T08:50:00.727587</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/standard/ustruct.html</loc>
+            <lastmod>2021-03-22T08:50:00.728606</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/standard/utime.html</loc>
+            <lastmod>2021-03-22T08:50:00.728606</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/standard/uzlib.html</loc>
+            <lastmod>2021-03-22T08:50:00.728606</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/contribute/app_doc_template.html</loc>
+            <lastmod>2021-03-22T08:50:00.729602</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/contribute/code_convention.html</loc>
+            <lastmod>2021-03-22T08:50:00.730601</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/contribute/doc_convention.html</loc>
+            <lastmod>2021-03-22T08:50:00.730601</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/advance/add_c_module.html</loc>
+            <lastmod>2021-03-22T08:50:00.731578</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/advance/compile.html</loc>
+            <lastmod>2021-03-22T08:50:00.731578</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/advance/pack_fs.html</loc>
+            <lastmod>2021-03-22T08:50:00.731578</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/advance/project_framework.html</loc>
+            <lastmod>2021-03-22T08:50:00.732595</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/basic/dnn_basic.html</loc>
+            <lastmod>2021-03-22T08:50:00.733592</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/basic/maixpy_hardware_ai_basic.html</loc>
+            <lastmod>2021-03-22T08:50:00.733592</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/image/1000_type_classifier.html</loc>
+            <lastmod>2021-03-22T08:50:00.733592</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/image/face_detect.html</loc>
+            <lastmod>2021-03-22T08:50:00.734589</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/image/face_recognization.html</loc>
+            <lastmod>2021-03-22T08:50:00.734589</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/image/self_learn_classifier.html</loc>
+            <lastmod>2021-03-22T08:50:00.734589</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/train/local.html</loc>
+            <lastmod>2021-03-22T08:50:00.735589</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/train/maixhub.html</loc>
+            <lastmod>2021-03-22T08:50:00.735589</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/image/adaptive-histogram-equalization.html</loc>
+            <lastmod>2021-03-22T08:50:00.735589</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/image/basic/acc_image_deal.html</loc>
+            <lastmod>2021-03-22T08:50:00.736583</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/image/basic/display_images.html</loc>
+            <lastmod>2021-03-22T08:50:00.737563</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/image/basic/draw.html</loc>
+            <lastmod>2021-03-22T08:50:00.737563</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1245,150 +1401,6 @@
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/standard/uos.html</loc>
             <lastmod>2021-03-22T08:50:00.727587</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/standard/ure.html</loc>
-            <lastmod>2021-03-22T08:50:00.727587</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/standard/usocket.html</loc>
-            <lastmod>2021-03-22T08:50:00.727587</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/standard/ustruct.html</loc>
-            <lastmod>2021-03-22T08:50:00.728606</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/standard/utime.html</loc>
-            <lastmod>2021-03-22T08:50:00.728606</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/standard/uzlib.html</loc>
-            <lastmod>2021-03-22T08:50:00.728606</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/contribute/app_doc_template.html</loc>
-            <lastmod>2021-03-22T08:50:00.729602</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/contribute/code_convention.html</loc>
-            <lastmod>2021-03-22T08:50:00.730601</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/contribute/doc_convention.html</loc>
-            <lastmod>2021-03-22T08:50:00.730601</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/advance/add_c_module.html</loc>
-            <lastmod>2021-03-22T08:50:00.731578</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/advance/compile.html</loc>
-            <lastmod>2021-03-22T08:50:00.731578</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/advance/pack_fs.html</loc>
-            <lastmod>2021-03-22T08:50:00.731578</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/advance/project_framework.html</loc>
-            <lastmod>2021-03-22T08:50:00.732595</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/basic/dnn_basic.html</loc>
-            <lastmod>2021-03-22T08:50:00.733592</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/basic/maixpy_hardware_ai_basic.html</loc>
-            <lastmod>2021-03-22T08:50:00.733592</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/image/1000_type_classifier.html</loc>
-            <lastmod>2021-03-22T08:50:00.733592</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/image/face_detect.html</loc>
-            <lastmod>2021-03-22T08:50:00.734589</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/image/face_recognization.html</loc>
-            <lastmod>2021-03-22T08:50:00.734589</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/image/self_learn_classifier.html</loc>
-            <lastmod>2021-03-22T08:50:00.734589</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/train/local.html</loc>
-            <lastmod>2021-03-22T08:50:00.735589</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/ai/train/maixhub.html</loc>
-            <lastmod>2021-03-22T08:50:00.735589</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/image/adaptive-histogram-equalization.html</loc>
-            <lastmod>2021-03-22T08:50:00.735589</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/image/basic/acc_image_deal.html</loc>
-            <lastmod>2021-03-22T08:50:00.736583</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/image/basic/display_images.html</loc>
-            <lastmod>2021-03-22T08:50:00.737563</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy/zh/course/image/basic/draw.html</loc>
-            <lastmod>2021-03-22T08:50:00.737563</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>

@@ -33,7 +33,7 @@ print(img)
 * `sensor.skip_frames()`: 摄像头刚启动时，图像质量还没稳定，所以跳过一些图像
 * `sensor.snapshot()`:从摄像头取一帧图像数据，返回值是一张图像的对象
 
-除了以上的函数， 你可能还需要设置图像为镜像（`hmirror`)，比如前置摄像头； 或者上下翻转(`vflip`)， 以及白平衡等等， 具体看 [sensor 模块的 API 手册](/api_reference/machine_vision/sensor.md)
+除了以上的函数， 你可能还需要设置图像为镜像（`hmirror`)，比如前置摄像头； 或者上下翻转(`vflip`)， 以及白平衡等等， 具体看 [sensor 模块的 API 手册](./../../../api_reference/machine_vision/sensor.md)
 
 
 ## 从文件读取

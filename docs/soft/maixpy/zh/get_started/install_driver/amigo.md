@@ -1,5 +1,5 @@
 ---
-title: FT2232 USB 驱动安装
+title: Maixpy Amigo USB 驱动安装
 keywords: maixpy, k210, AIOT, 边缘计算
 desc: maixpy doc: FT2232 USB 驱动安装
 ---
