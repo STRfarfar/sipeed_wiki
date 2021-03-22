@@ -75,7 +75,7 @@ kflash -p /dev/ttyUSB0 -b 1500000 -B goE maixpy.bin
 
 ![](../../assets/kflash_gui/kflash_gui_download.png)
 
-![](../../assets/kflash_gui_screenshot_download.png)
+
 
 
 > 对于最早期的 `Maix Go`, 如果确认选项是对的，仍然无法下载, 可以尝试将三相拨轮按键拨向 `Down` 的位置并保持再下载

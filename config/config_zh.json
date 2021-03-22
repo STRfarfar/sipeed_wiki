@@ -24,11 +24,11 @@
                 "type": "list",
                 "items": [
                     {
-                        "url": "/soft/maixpy/zh",
+                        "url": "/soft/maixpy/zh/index.html",
                         "label": "Maixpy"
                     },
                     {
-                        "url": "/soft/maixpy3/zh",
+                        "url": "/soft/maixpy3/zh/",
                         "label": "Maixpy3"
                     },
                     {

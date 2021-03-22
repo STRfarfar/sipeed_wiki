@@ -35,6 +35,6 @@ lcd.rotation(2)
 ```
 参数是`0～3`, 分别代表顺时针旋转 `0度` `90度` `180度` `270度`
 
-更多方法， 请参考 [lcd 文档](/api_reference/machine_vision/lcd.md)
+更多方法， 请参考 [lcd 文档](./../../../api_reference/machine_vision/lcd.md)
 
 

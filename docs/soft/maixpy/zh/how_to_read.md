@@ -49,7 +49,7 @@ desc: maixpy doc: 如何正确 阅读 本文
 
 * 本文档有两个域名： [`https://maixpy.sipeed.com`](https://maixpy.sipeed.com) 和 [`https://cn.maixpy.sipeed.com`](https://cn.maixpy.sipeed.com)， 一个访问不了时可以访问另一个
 
-* 文档使用 gitbook 从 markdown 自动生成为静态页面， 如果遇到有些页面无法访问， 请检查一下网址（路径）是否正确， 可以回到首页 ([`maixpy.sipeed.com`](maixpy.sipeed.com)) 重新进入即可。
+* 文档使用 gitbook 从 markdown 自动生成为静态页面， 如果遇到有些页面无法访问， 请检查一下网址（路径）是否正确， 可以回到首页 ([`maixpy.sipeed.com`](https://maixpy.sipeed.com)) 重新进入即可。
 
 比如这个网址就是由于网络情况不佳点击过快导致的：
 ```

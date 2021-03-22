@@ -63,15 +63,15 @@ items:
             -   label: Maix Bit
                 file: get_started/install_driver/bit.md
             -   label: Maix Amigo
-                file: get_started/install_driver/ft2232.md
+                file: get_started/install_driver/amigo.md
             -   label: Maix Cube
-                file: get_started/install_driver/ft2232.md
+                file: get_started/install_driver/cube.md
             -   label: Maix Go
                 file: get_started/install_driver/go.md
             -   label: Maix Nano
                 file: get_started/install_driver/nano.md
             -   label: Grove AI HAT
-                file: get_started/install_driver/ft2232.md
+                file: get_started/install_driver/ai_hat.md
         -   label: 更新 MaixPy 固件
             file: get_started/upgrade_maixpy_firmware.md
         -   label: 使用串口终端工具
@@ -101,7 +101,7 @@ items:
         -   label: 开机自动运行脚本
             file: get_started/get_started_boot.md
         -   label: 开发板配置文件
-            file: api_reference/builtin_py/board_info.md
+            file: get_started/board_info.md
         -   label: 上手视频教程
             file: get_started/maixpy_get_started_video.md
     -   label: 固件定制
@@ -195,7 +195,6 @@ items:
             -   label: WDT
                 file: modules/on_chip/wdt.md
         -   label: SP-MOD
-            file: modules/sp_mod/README.md
             items:
             -   label: BT 蓝牙透传
                 file: modules/sp_mod/sp_bt.md
@@ -214,7 +213,6 @@ items:
             -   label: Ethernet 有线网口
                 file: modules/sp_mod/sp_ethernet.md
         -   label: Grove
-            file: modules/grove/README.md
             items:
             -   label: Ultrasonic Ranger 测距
                 file: modules/grove/grove_ultrasonic_ranger.md
@@ -309,7 +307,7 @@ items:
             file: api_reference/standard/utime.md
         -   label: uzlib
             file: api_reference/standard/uzlib.md
-    -   label: machinie
+    -   label: machine
         file: api_reference/machine/README.md
         items:
         -   label: I2C

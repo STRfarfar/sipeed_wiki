@@ -16,7 +16,7 @@ Maixhub 提供模型训练功能和模型分享功能， 只需要准备好需�
 * 训练完成， 结果会通过邮件进行通知， 不管是成功还是失败，都会有邮件通知，里面有详细的任务信息和结果文件
 
 
-Maixhub 使用说明参考 [Maixhub 训练使用说明](https://www.maixhub.com/index/mtrain/help.html)
+Maixhub 使用说明参考 [Maixhub 训练使用说明](https://www.maixhub.com/ModelTrainingHelp_zh.html)
 
 
 

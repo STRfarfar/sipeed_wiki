@@ -23,7 +23,7 @@ desc: maixpy doc: SP_RFID 的使用
 * 工作电压: 2.2V~3.6V
 * 工作温度: -40°C~85°C
 
-模块详细信息请参考[RFID 规格书与数据手册](http://api.dl.sipeed.com/shareURL/MAIX/HDK/sp_mod/sp_rfid)
+模块详细信息请参考[RFID 规格书与数据手册](https://api.dl.sipeed.com/fileList/MAIX/HDK/Spmod_EN/SP-RFID%20Datasheet%20V1.0.pdf)
 
 ## 使用方法
 

@@ -14,7 +14,7 @@ desc: maixpy doc: 人脸识别
 ## 使用方法
 
 
-* 从 [maixhub](https://www.maixhub.com/index/index/detail/id/235.html) 按照说明下载模型， 获得模型`smodel`, 就是 加密版本的`kmodel`
+* 从 [maixhub](https://www.maixhub.com) 按照说明下载模型， 获得模型`smodel`, 就是 加密版本的`kmodel`
 * 按照入门教程的方法下载模型到开发板
 * 运行脚本 [script](https://github.com/sipeed/MaixPy_scripts/blob/master/machine_vision/face_recognization/demo_face_recognization.py)
 

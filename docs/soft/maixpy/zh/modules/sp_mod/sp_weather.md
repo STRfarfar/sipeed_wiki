@@ -44,7 +44,7 @@ SP_Weather 气象模块拥有两颗传感器, 磁性传感器 QMC7983, 这是一
 * 工作电压: 1.71V~3.6V
 * 工作温度: -30°C ~ 85°C
 
-模块详细信息请参考[气象模块规格书与数据手册](http://api.dl.sipeed.com/shareURL/MAIX/HDK/sp_mod/sp_weather)
+模块详细信息请参考[气象模块规格书与数据手册](https://api.dl.sipeed.com/fileList/MAIX/HDK/Spmod_EN/SP-WEATHER%20Datasheet%20V1.0.pdf)
 
 ## 使用方法
 

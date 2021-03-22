@@ -17,7 +17,7 @@ desc: maixpy doc: SP_Ethernet 的使用
 * 通讯接口：SPI
 * 工作温度范围：-40℃ ~ 85℃
 
-模块详细信息请参考[Ethernet 规格书](http://api.dl.sipeed.com/shareURL/MAIX/HDK/sp_mod/sp_ethernet)
+模块详细信息请参考[Ethernet 规格书](https://api.dl.sipeed.com/fileList/MAIX/HDK/Spmod_EN/SP-Ethernet%20Datasheet%20V1.0.pdf)
 
 ## 使用方法
 

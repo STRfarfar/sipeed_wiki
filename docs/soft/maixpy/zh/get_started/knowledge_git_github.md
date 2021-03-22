@@ -61,7 +61,7 @@ github 是国外的网站， 因为距离远，线路问题导致某些运营商
 ## 什么是 star
 
 在 github 上， 每个公开的仓库大家都可以去点赞收藏，也就是 star，在 github 右上角 ⭐ 形状的按钮
-![](/assets/other/github_star.jpg)
+![star ](../../assets/other/github_star.jpg)
 如果你觉得项目不错，请给个 star，这样会鼓励开发者花更多时间维护仓库，同时也告诉第一次来的访问者这是个不错的项目，值得关注。
 
 star 后， 可以在个人资料里面找到自己的 star 仓库，方便下一次找到
@@ -130,7 +130,7 @@ git clone https://github.com/sipeed/MaixPy --recursive
 ## 什么是 fork
 
 在 github 上， 仓库页面右上角有一个 fork 按钮
-![](/assets/other/github_star.jpg)
+![](../../assets/other/github_star.jpg)
 点击可以将仓库 fork 到自己的仓库，就相当于是一份拷贝，叫 fork 的原因是你在 fork 成自己的仓库后，可以对自己这个仓库进行随意修改，算是原来被 fork 仓库的一个发展分支，源自它但是可以不与它相同
 
 

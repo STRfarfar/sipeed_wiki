@@ -20,7 +20,7 @@ SP_BT 是一款蓝牙串口透传模块， 具备超低功率特性和高可靠�
 * 工作温度: -40°C~85°C
 * 工作电压: 1.8V~3.6V
 
-模块详细信息请参考[BT 规格书与数据手册](http://api.dl.sipeed.com/shareURL/MAIX/HDK/sp_mod/sp_bt)
+模块详细信息请参考[BT 规格书与数据手册](https://api.dl.sipeed.com/fileList/MAIX/HDK/Spmod_EN/SP-BT%20Datasheet%20V1.0.pdf)
 
 ## 使用说明
 
