@@ -7,13 +7,13 @@ desc: maixpy doc: MaixPy 文档简介
 
 <div class="title_pic">
     <div class="logo_maixpy">
-    <img src="assets/maixpy/maixpy.png" alt="maixpy logo">
+    <img src="./../assets/maixpy/maixpy.png" alt="maixpy logo">
     </div>
     <span class="logo_sipeed">
-    <img src="assets/sipeed/sipeed_logo_4.svg" alt="sipeed logo">
+    <img src="./../assets/sipeed/sipeed_logo_4.svg" alt="sipeed logo">
     </span>
     <span class="logo_mpy">
-    <img src="assets/maixpy/micropython.png" alt="micropython logo">
+    <img src="./../assets/maixpy/micropython.png" alt="micropython logo">
     </span>
     <br/>
 </div>
@@ -157,7 +157,7 @@ please read doc before run it!
 
 ## 可以运行MaixPy的开发板
 
-首先我们需要选择一款适合自己的开发板，各个型号的 MaixPy 型号请点击：[开发板与配件选购指南](./zh/develop_kit_board/get_hardware.md)，同时目录下也有对应开发板的硬件参数和资料
+首先我们需要选择一款适合自己的开发板，各个型号的 MaixPy 型号请点击：[开发板与配件选购指南](./develop_kit_board/get_hardware.md)，同时目录下也有对应开发板的硬件参数和资料
 
 要获得这些板子，可以访问Sipeed（矽速）官网[www.sipeed.com](https://www.sipeed.com/)，或者[官方淘宝店](https://sipeed.taobao.com/)
 
@@ -177,7 +177,7 @@ please read doc before run it!
 
 文档源码托管在 [github](https://github.com/sipeed/MaixPy_DOC)，如果文档有错别字或者改进可以提交PR，PR通过后，文档也会随之更新
 
-注意： 在编辑文档前**必须**看[文档编写规范](./zh/contribute/doc_convention.md)， 只有符合文档规范的修改才会被通过
+注意： 在编辑文档前**必须**看[文档编写规范](./contribute/doc_convention.md)， 只有符合文档规范的修改才会被通过
 
 
 
@@ -224,7 +224,7 @@ please read doc before run it!
         </tr>
         <tr>
             <td>E-mail(商业合作)</td>
-            <td><a target="_blank" rel="noopener noreferrer" href="./assets/sipeed/support_email.jpg"><img src="./assets/sipeed/support_email.jpg" alt="email" style="max-width:100%;"></a></td>
+            <td><a target="_blank" rel="noopener noreferrer" href="./../assets/sipeed/support_email.jpg"><img src="./../assets/sipeed/support_email.jpg" alt="email" style="max-width:100%;"></a></td>
         </tr>
     </tbody>
 </table>
