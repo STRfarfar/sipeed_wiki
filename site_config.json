@@ -1,0 +1,80 @@
+{
+    "site_name": "Sipeed Wiki",
+    "site_slogon": "",
+    "site_root_url": "/",
+    "site_domain": "wiki.sipeed.com",
+    "site_protocol": "https",
+    "config_template_dir": "config",
+    "route": {
+        "docs": {
+            "/hardware/maix/zh/": "docs/hardware/maix/zh",
+            "/hardware/maix/en/": "docs/hardware/maix/en",
+            "/hardware/longan/zh/": "docs/hardware/longan/zh",
+            "/hardware/longan/en/": "docs/hardware/longan/en",
+            "/hardware/maixface/zh/": "docs/hardware/maixface/zh",
+            "/hardware/maixface/en/": "docs/hardware/maixface/en",
+            "/hardware/lichee/zh/": "docs/hardware/lichee/zh",
+            "/hardware/lichee/en/": "docs/hardware/lichee/en",
+            "/hardware/tang/zh/": "docs/hardware/tang/zh",
+            "/hardware/tang/en/": "docs/hardware/tang/en",
+            "/soft/maixpy/zh/": "docs/soft/maixpy/zh",
+            "/soft/maixpy/en/": "docs/soft/maixpy/en",
+            "/soft/maixpy3/zh/": "docs/soft/maixpy3/zh",
+            "/soft/maixpy3/en/": "docs/soft/maixpy3/en"
+        },
+        "pages": {
+            "/": "pages/index/zh",
+            "/en/": "pages/index/en"
+        },
+        "assets": {
+            "/static/": "static",
+            "/hardware/assets/": "docs/hardware/maix/assets",
+            "/hardware/longan/assets/": "docs/hardware/longan/assets",
+            "/hardware/maixface/assets/": "docs/hardware/maixface/assets",
+            "/hardware/lichee/assets/": "docs/hardware/lichee/assets",
+            "/hardware/tang/assets/": "docs/hardware/tang/assets",
+            "/soft/maixpy/assets/": "docs/soft/maixpy/assets",
+            "/soft/maixpy3/assets/": "docs/soft/maixpy3/assets"
+        },
+        "/blog/": "blog"
+    },
+    "executable": {
+        "python": "python3",
+        "pip": "pip3"
+    },
+    "plugins": {
+        "teedoc-plugin-markdown-parser":{
+            "from": "pypi",
+            "config": {
+                "toc_depth": 3
+            }
+        },
+        "teedoc-plugin-theme-default":{
+            "from": "pypi",
+            "config": {
+                "dark": true,
+                "env":{
+                    "main_color": "#FF6B63"
+                },
+                "css": "/static/css/custom.css",
+                "js": "/static/js/custom.js"
+            }
+        },
+        "teedoc-plugin-search":{
+            "from": "pypi",
+            "config": {
+                "search_hint": "Search"
+            }
+        },
+        "teedoc-plugin-baidu-tongji":{
+            "from": "pypi",
+            "config": {
+                "code": "9cb07365544a53067c56c346c838181a"
+            }
+        }
+    },
+    "rebuild_changes_delay": 0,
+    "robots":{
+        "User-agent": "*"
+    }
+}
