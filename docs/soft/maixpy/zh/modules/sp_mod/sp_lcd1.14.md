@@ -19,7 +19,7 @@ SP_LCD 拥有一块1.14’寸 LCD， 8P FPC(0.5mm 间距)接口的 TFT 液晶屏
 * 工作电压: 2.5V~4.8V
 * 工作温度: -30°C~85°C
 
-模块详细信息请参考[LCD114 规格书与数据手册](http://api.dl.sipeed.com/shareURL/MAIX/HDK/sp_mod/sp_lcd114)
+模块详细信息请参考[LCD1.14 规格书与数据手册](https://api.dl.sipeed.com/fileList/MAIX/HDK/Spmod_EN/SP-LCD1.14%20Datasheet%20V1.0.pdf)
 
 ## 使用方法
 

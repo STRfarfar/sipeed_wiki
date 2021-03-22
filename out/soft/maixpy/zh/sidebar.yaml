@@ -101,7 +101,7 @@ items:
         -   label: 开机自动运行脚本
             file: get_started/get_started_boot.md
         -   label: 开发板配置文件
-            file: api_reference/builtin_py/board_info.md
+            file: get_started/board_info.md
         -   label: 上手视频教程
             file: get_started/maixpy_get_started_video.md
     -   label: 固件定制

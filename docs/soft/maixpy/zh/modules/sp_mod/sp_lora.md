@@ -20,7 +20,7 @@ SP_LoRa 模块使用 M-XL8 模组, 其内置 LoRaTM 调制解调器和可调功�
 * 工作电压: 1.8V~6.3V
 * 工作温度: -40°C~80°C
 
-模块详细信息请参考[LoRa 规格书与数据手册](http://api.dl.sipeed.com/shareURL/MAIX/HDK/sp_mod/sp_lora)
+模块详细信息请参考[LoRa 规格书与数据手册](https://api.dl.sipeed.com/fileList/MAIX/HDK/Spmod_EN/SP-LoRa%20Datasheet%20V1.0.pdf)
 
 ## 使用方法
 

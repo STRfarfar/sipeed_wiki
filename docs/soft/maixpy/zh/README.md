@@ -65,7 +65,7 @@ desc: maixpy doc: MaixPy 文档简介
 
 **MaixPy** 让我们在 K210 上编程更加简单快捷， 我们也将源代码开源在 [github](https://github.com/sipeed/MaixPy) 上
 
-使用 MaixPy 可以做很多有趣的事情， 具体可以 [看这里](./zh/what_maix_do.md)
+使用 MaixPy 可以做很多有趣的事情， 具体可以 [看这里](./what_maix_do.md)
 
 ## 简洁的代码实例
 
@@ -81,7 +81,7 @@ print(devices)                                   # 打印设备
 
 同样，我们需要实现一个**呼吸灯**，只需要如下代码：
 
-> `board_info` 与板卡相关，不同板卡配置不同，使用前需要[手动配置](api_reference/builtin_py/board_info.md)。
+> `board_info` 与板卡相关，不同板卡配置不同，使用前需要[手动配置](./api_reference/builtin_py/board_info.md)。
 
 ```python
 from machine import Timer,PWM

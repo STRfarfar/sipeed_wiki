@@ -18,7 +18,7 @@ SP_EINK 模块所采用的 GDEW0154M09 是一款 1.54”, 拥有 24P FPC(0.5mm �
 * 工作温度: -40°C~85°C
 * 工作电压: 2.3V~3.6V
 
-模块详细信息请参考[EINK 规格书与数据手册](http://api.dl.sipeed.com/shareURL/MAIX/HDK/sp_mod/sp_eink)
+模块详细信息请参考[EINK 规格书与数据手册](https://api.dl.sipeed.com/fileList/MAIX/HDK/Spmod_EN/SP-EINK%20Datasheet%20V1.0.pdf)
 
 ## 使用方法
 
