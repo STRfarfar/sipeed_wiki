@@ -91,10 +91,10 @@ var _hmt = _hmt || [];
                     <div id="sidebar_title">
                         
                     </div>
-                    <ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePi</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">简介</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+                    <ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePi</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">简介</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator"></span></a><ul class="show">
 <li class="not_active no_link"><a><span class="label">上手体验</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eye.html"><span class="label">初见</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eat.html"><span class="label">前言</span><span class=""></span></a></li>
@@ -109,6 +109,29 @@ var _hmt = _hmt || [];
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/devicetree.html"><span class="label">设备树添加节点</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/rootfs.html"><span class="label">根文件系统编译</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/build_flash.html"><span class="label">SPI-Flash系统编译</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">驱动开发</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/driver/touchscreen.html"><span class="label">电容触摸屏适配</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="active_parent no_link"><a><span class="label">从挖坑到填坑</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/one_openbox.html"><span class="label">开箱介绍</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/two_sunxi-tools.html"><span class="label">编译使用sunxi-tools</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/three_uboot.html"><span class="label">编译使用uboot</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/four_linux.html"><span class="label">编译测试linux</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">应用开发</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/application/littlevgl.html"><span class="label">littlevGL的使用</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">奉献投稿</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/introduction.html"><span class="label">前言</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/todolist.html"><span class="label">Todolist</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/task_tips.html"><span class="label">快餐任务相关小事项</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/doc_tips.html"><span class="label">文档任务相关小事项</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/build_doc.html"><span class="label">文档构建</span><span class=""></span></a></li>
 </ul>
 </li>
 </ul>
@@ -153,59 +176,81 @@ var _hmt = _hmt || [];
 
 <hr />
 
-<h2 id="1-sunxi-tools">1. 克隆sunxi-tools</h2>
+<h2 id="sunxi-tools-2">克隆sunxi-tools</h2>
 
-<blockquote>
-  <p><code>git clone https://github.com/Icenowy/sunxi-tools.git -b f1c100s-spiflash</code></p>
-</blockquote>
+<pre><code>git clone https://github.com/Icenowy/sunxi-tools.git -b f1c100s-spiflash
+</code></pre>
 
-<h2 id="2-sunxi-tools">2. 编译sunxi-tools</h2>
+<h2 id="sunxi-tools-3">编译sunxi-tools</h2>
 
-<ul>
-<li><p>安装sunxi-tools依赖库</p>
+<p>安装sunxi-tools依赖库</p>
 
-<p><code>sudo apt install libz libusb-1.0-0-dev</code></p></li>
-<li><p>编译</p>
+<pre><code>sudo apt install libz libusb-1.0-0-dev
+</code></pre>
 
-<p><code>make</code></p></li>
-<li><p>安装</p>
+<p>编译</p>
 
-<p><code>make install</code></p></li>
-</ul>
+<pre><code>make
+</code></pre>
 
-<h2 id="3-sunxi-tools">3. 使用sunxi-tools</h2>
+<p>安装</p>
 
-<ul>
-<li><p>查看芯片信息</p>
+<pre><code>make install
+</code></pre>
 
-<p><code>sudo sunxi-fel ver</code></p>
+<h2 id="sunxi-tools-4">使用sunxi-tools</h2>
 
-<p>AWUSBFEX soc=00001663(F1C100s) 00000001 ver=0001 44 08<br />
-scratchpad=00007e00 00000000 00000000</p></li>
-<li><p>列出所有芯片的信息</p>
+<p>查看芯片信息</p>
 
-<p><code>sudo sunxi-fel -l</code></p></li>
-<li><p>加载并执行uboot的spl</p>
+<pre><code>sudo sunxi-fel ver
 
-<p><code>sudo sunxi-fel spl 文件名</code></p></li>
-<li><p>把文件内容写入内存指定地址(-p是显示写入进度) ``sudo sunxi-fel -p<br />
-write 地址 文件名</p></li>
-<li>调用指定地址的函数 <code>sudo sunxi-fel exec 地址</code></li>
-<li>显示spiflash的信息 <code>sudo sunxi-fel spiflash-info</code></li>
-<li>读取spiflash指定地址的数据并写入到文件<br />
-<code>sudo sunxi-fel spiflash-read 地址 长度 存放数据的文件路径</code></li>
-<li>写入指定文件的指定长度的内容到spiflash的指定地址<br />
-<code>sudo sunxi-fel spiflash-write 地址 长度 存放数据的文件路径</code></li>
-</ul>
+AWUSBFEX soc=00001663(F1C100s) 00000001 ver=0001 44 08
+scratchpad=00007e00 00000000 00000000
+</code></pre>
+
+<p>列出所有芯片的信息</p>
+
+<pre><code>sudo sunxi-fel -l
+</code></pre>
+
+<p>加载并执行uboot的spl</p>
+
+<pre><code>sudo sunxi-fel spl 文件名
+</code></pre>
+
+<p>把文件内容写入内存指定地址(-p是显示写入进度) ``sudo sunxi-fel -p</p>
+
+<pre><code>write 地址 文件名
+</code></pre>
+
+<p>调用指定地址的函数 </p>
+
+<pre><code>sudo sunxi-fel exec 地址
+</code></pre>
+
+<p>显示spiflash的信息</p>
+
+<pre><code>sudo sunxi-fel spiflash-info
+</code></pre>
+
+<p>读取spiflash指定地址的数据并写入到文件</p>
+
+<pre><code>sudo sunxi-fel spiflash-read 地址 长度 存放数据的文件路径
+</code></pre>
+
+<p>写入指定文件的指定长度的内容到spiflash的指定地址</p>
+
+<pre><code>sudo sunxi-fel spiflash-write 地址 长度 存放数据的文件路径
+</code></pre>
 
                         </div>
                     </div>
                     <div id="previous_next">
                         <div id="previous">
-                            
+                            <a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/one_openbox.html"><span class="icon"></span><span class="label">开箱介绍</span></a>
                         </div>
                         <div id="next">
-                            
+                            <a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/three_uboot.html"><span class="label">编译使用uboot</span><span class="icon"></span></a>
                         </div>
                     </div>
                 </div>

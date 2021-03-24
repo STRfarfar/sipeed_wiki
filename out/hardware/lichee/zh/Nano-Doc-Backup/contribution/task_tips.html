@@ -91,10 +91,10 @@ var _hmt = _hmt || [];
                     <div id="sidebar_title">
                         
                     </div>
-                    <ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePi</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">简介</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+                    <ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePi</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">简介</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator"></span></a><ul class="show">
 <li class="not_active no_link"><a><span class="label">上手体验</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eye.html"><span class="label">初见</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eat.html"><span class="label">前言</span><span class=""></span></a></li>
@@ -109,6 +109,29 @@ var _hmt = _hmt || [];
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/devicetree.html"><span class="label">设备树添加节点</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/rootfs.html"><span class="label">根文件系统编译</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/build_flash.html"><span class="label">SPI-Flash系统编译</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">驱动开发</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/driver/touchscreen.html"><span class="label">电容触摸屏适配</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">从挖坑到填坑</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/one_openbox.html"><span class="label">开箱介绍</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/two_sunxi-tools.html"><span class="label">编译使用sunxi-tools</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/three_uboot.html"><span class="label">编译使用uboot</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/four_linux.html"><span class="label">编译测试linux</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">应用开发</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/application/littlevgl.html"><span class="label">littlevGL的使用</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="active_parent no_link"><a><span class="label">奉献投稿</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/introduction.html"><span class="label">前言</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/todolist.html"><span class="label">Todolist</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/task_tips.html"><span class="label">快餐任务相关小事项</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/doc_tips.html"><span class="label">文档任务相关小事项</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/build_doc.html"><span class="label">文档构建</span><span class=""></span></a></li>
 </ul>
 </li>
 </ul>
@@ -159,35 +182,28 @@ var _hmt = _hmt || [];
 <p>当您完成项目后，也请尽快联系 <a href="mailto://zepanwucai@gmail.com">群主</a><br />
 ，并请您提供：</p>
 
-<blockquote>
-  <ul>
-  <li>若为机械硬件或应用功能性开发项目，请摄录示例视频以展现任务效果；</li>
-  <li>若为驱动或移植开发，请打包环境配置文件、命令脚本、镜像等相关内容，交于群主验证；</li>
-  <li>请编写相关文档，如 API<br />
-  接口文档、移植文档、使用说明书等以作资料收集（公开与否取决于您的意向）；</li>
-  </ul>
-</blockquote>
+<ul>
+<li>若为机械硬件或应用功能性开发项目，请摄录示例视频以展现任务效果；</li>
+<li>若为驱动或移植开发，请打包环境配置文件、命令脚本、镜像等相关内容，交于群主验证；</li>
+<li>请编写相关文档，如 API 接口文档、移植文档、使用说明书等以作资料收集（公开与否取决于您的意向）；</li>
+</ul>
 
 <p>荔枝派将借助平台，使用任务流、时间轴的形式，协助各位开发者更直观地快速了解并管理自己的开餐任务。</p>
 
-<p>最后，请参阅 <a href="./todolist.html">TodoList</a><br />
-以查看各项任务的进展情况与负责人。</p>
+<p>最后，请参阅 <a href="./todolist.html">TodoList</a> 以查看各项任务的进展情况与负责人。</p>
 
 <blockquote>
-  <p><strong>note</strong></p>
-  
-  <p>荔枝派 Nano<br />
-  的快餐任务尚待更新，预计将于众筹开始一周之后陆续进行快餐任务的发布</p>
+  <p>荔枝派 Nano的快餐任务尚待更新，预计将于众筹开始一周之后陆续进行快餐任务的发布</p>
 </blockquote>
 
                         </div>
                     </div>
                     <div id="previous_next">
                         <div id="previous">
-                            
+                            <a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/todolist.html"><span class="icon"></span><span class="label">Todolist</span></a>
                         </div>
                         <div id="next">
-                            
+                            <a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/doc_tips.html"><span class="label">文档任务相关小事项</span><span class="icon"></span></a>
                         </div>
                     </div>
                 </div>

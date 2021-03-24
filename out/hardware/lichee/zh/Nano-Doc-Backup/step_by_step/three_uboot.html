@@ -91,10 +91,10 @@ var _hmt = _hmt || [];
                     <div id="sidebar_title">
                         
                     </div>
-                    <ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePi</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">简介</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+                    <ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePi</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">简介</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator"></span></a><ul class="show">
 <li class="not_active no_link"><a><span class="label">上手体验</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eye.html"><span class="label">初见</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eat.html"><span class="label">前言</span><span class=""></span></a></li>
@@ -109,6 +109,29 @@ var _hmt = _hmt || [];
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/devicetree.html"><span class="label">设备树添加节点</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/rootfs.html"><span class="label">根文件系统编译</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/build_flash.html"><span class="label">SPI-Flash系统编译</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">驱动开发</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/driver/touchscreen.html"><span class="label">电容触摸屏适配</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="active_parent no_link"><a><span class="label">从挖坑到填坑</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/one_openbox.html"><span class="label">开箱介绍</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/two_sunxi-tools.html"><span class="label">编译使用sunxi-tools</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/three_uboot.html"><span class="label">编译使用uboot</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/four_linux.html"><span class="label">编译测试linux</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">应用开发</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/application/littlevgl.html"><span class="label">littlevGL的使用</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">奉献投稿</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/introduction.html"><span class="label">前言</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/todolist.html"><span class="label">Todolist</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/task_tips.html"><span class="label">快餐任务相关小事项</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/doc_tips.html"><span class="label">文档任务相关小事项</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/build_doc.html"><span class="label">文档构建</span><span class=""></span></a></li>
 </ul>
 </li>
 </ul>
@@ -155,61 +178,65 @@ var _hmt = _hmt || [];
 
 <h2 id="1-uboot">1. 克隆uboot</h2>
 
-<blockquote>
-  <p><code>git clone https://github.com/Lichee-Pi/u-boot.git -b nano-v2018.01</code></p>
-</blockquote>
+<pre><code>git clone https://github.com/Lichee-Pi/u-boot.git -b nano-v2018.01
+</code></pre>
 
 <h2 id="2">2. 载入默认配置</h2>
 
-<ul>
-<li><p>如果需要生成在sdram里启动的uboot</p>
+<p>如果需要生成在sdram里启动的uboot</p>
 
-<p><code>make ARCH=arm licheepi_nano_defconfig</code></p></li>
-<li><p>如果需要生成在spiflash里启动的uboot</p>
+<pre><code>make ARCH=arm licheepi_nano_defconfig
+</code></pre>
 
-<p><code>make ARCH=arm licheepi_nano_spiflash_defconfig</code></p></li>
-</ul>
+<p>如果需要生成在spiflash里启动的uboot</p>
 
-<h2 id="3">3. 编译时可能遇到的问题以及解决办法</h2>
+<pre><code>make ARCH=arm licheepi_nano_spiflash_defconfig
+</code></pre>
 
-<ul>
-<li><p>/bin/sh: 1: cc: not found</p>
+<h2 id="1">1. 编译时可能遇到的问题以及解决办法</h2>
 
-<p><code>sudo apt install gcc</code></p></li>
-<li><p><em>*</em> Configuration file ".config" not found!</p>
+<p><strong>/bin/sh: 1: cc: not found</strong></p>
 
-<p>请检查当前用户是否有当前文件夹的读写权限,然后再次载入默认配置.</p></li>
-<li><p>/bin/sh: 1: python: not found</p>
+<pre><code>sudo apt install gcc
+</code></pre>
 
-<p><code>sudo apt install python</code></p></li>
-<li><p>unable to execute 'swig': No such file or directory error: command<br />
-'swig' failed with exit status 1</p></li>
-</ul>
+<p><strong>*** Configuration file ".config" not found!</strong></p>
 
-<blockquote>
-  <p><code>apt install swig</code></p>
-</blockquote>
+<pre><code>请检查当前用户是否有当前文件夹的读写权限,然后再次载入默认配置.
+</code></pre>
 
-<ul>
-<li><p>scripts/dtc/pylibfdt/libfdt_wrap.c:149:11: fatal error: Python.h:<br />
-No such file or directory</p>
+<p><strong>/bin/sh: 1: python: not found</strong></p>
 
-<p><code>apt install python-dev</code></p></li>
-<li><p>/bin/sh: 1: bc: not found</p>
+<pre><code>`sudo apt install python`
+</code></pre>
 
-<p><code>apt install bc</code></p></li>
-</ul>
+<p><strong>unable to execute 'swig': No such file or directory</strong><br />
+<strong>error: command 'swig' failed with exit status 1</strong></p>
 
-<h2 id="3-uboot">3. 测试uboot</h2>
+<pre><code>apt install swig
+</code></pre>
+
+<p><strong>scripts/dtc/pylibfdt/libfdt_wrap.c:149:11: fatal error: Python.h:</strong><br />
+    <strong>No such file or directory</strong></p>
+
+<pre><code>apt install python-dev
+</code></pre>
+
+<p><strong>/bin/sh: 1: bc: not found</strong></p>
+
+<pre><code>apt install bc
+</code></pre>
+
+<h2 id="uboot-2">测试uboot</h2>
 
                         </div>
                     </div>
                     <div id="previous_next">
                         <div id="previous">
-                            
+                            <a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/two_sunxi-tools.html"><span class="icon"></span><span class="label">编译使用sunxi-tools</span></a>
                         </div>
                         <div id="next">
-                            
+                            <a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/four_linux.html"><span class="label">编译测试linux</span><span class="icon"></span></a>
                         </div>
                     </div>
                 </div>

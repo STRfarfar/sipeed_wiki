@@ -37,24 +37,6 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_tof.html</loc>
-            <lastmod>2021-03-23T17:37:11.840392</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_weather.html</loc>
-            <lastmod>2021-03-23T17:37:11.840392</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/index.html</loc>
-            <lastmod>2021-03-23T17:37:11.833403</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
             <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_psram.html</loc>
             <lastmod>2021-03-23T17:37:11.839394</lastmod>
             <changefreq>weekly</changefreq>
@@ -79,26 +61,20 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_joystick.html</loc>
-            <lastmod>2021-03-23T17:37:11.838365</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_tof.html</loc>
+            <lastmod>2021-03-23T17:37:11.840392</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_lcd1.14.html</loc>
-            <lastmod>2021-03-23T17:37:11.838365</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_weather.html</loc>
+            <lastmod>2021-03-23T17:37:11.840392</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_lora.html</loc>
-            <lastmod>2021-03-23T17:37:11.838365</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_micarray.html</loc>
-            <lastmod>2021-03-23T17:37:11.839394</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/index.html</loc>
+            <lastmod>2021-03-23T17:37:11.833403</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -123,6 +99,30 @@
         <url>
             <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_eink.html</loc>
             <lastmod>2021-03-23T17:37:11.836390</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_joystick.html</loc>
+            <lastmod>2021-03-23T17:37:11.838365</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_lcd1.14.html</loc>
+            <lastmod>2021-03-23T17:37:11.838365</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_lora.html</loc>
+            <lastmod>2021-03-23T17:37:11.838365</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_micarray.html</loc>
+            <lastmod>2021-03-23T17:37:11.839394</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -217,24 +217,6 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/README_en.html</loc>
-            <lastmod>2021-03-23T17:37:11.826397</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_bt.html</loc>
-            <lastmod>2021-03-23T17:37:11.826397</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_eink.html</loc>
-            <lastmod>2021-03-23T17:37:11.827401</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
             <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_rfid.html</loc>
             <lastmod>2021-03-23T17:37:11.831404</lastmod>
             <changefreq>weekly</changefreq>
@@ -249,6 +231,24 @@
         <url>
             <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_tof.html</loc>
             <lastmod>2021-03-23T17:37:11.831404</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/README_en.html</loc>
+            <lastmod>2021-03-23T17:37:11.826397</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_bt.html</loc>
+            <lastmod>2021-03-23T17:37:11.826397</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_eink.html</loc>
+            <lastmod>2021-03-23T17:37:11.827401</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -421,6 +421,30 @@
             <priority>1.0</priority>
         </url>
         <url>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/three_uboot.html</loc>
+            <lastmod>2021-03-24T09:47:38.196139</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/two_sunxi-tools.html</loc>
+            <lastmod>2021-03-24T10:03:16.592044</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eye.html</loc>
+            <lastmod>2021-03-23T17:16:21.247203</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/index.html</loc>
+            <lastmod>2021-03-23T17:16:21.248212</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
             <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/five_buidroot.html</loc>
             <lastmod>2021-03-23T17:16:21.252190</lastmod>
             <changefreq>weekly</changefreq>
@@ -428,25 +452,13 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/four_linux.html</loc>
-            <lastmod>2021-03-23T17:16:21.253187</lastmod>
+            <lastmod>2021-03-24T09:45:25.981415</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/one_openbox.html</loc>
-            <lastmod>2021-03-23T17:16:21.254188</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/three_uboot.html</loc>
-            <lastmod>2021-03-23T17:16:21.256180</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/two_sunxi-tools.html</loc>
-            <lastmod>2021-03-23T17:16:21.258216</lastmod>
+            <lastmod>2021-03-24T10:03:41.850220</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -481,24 +493,6 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/onekey.html</loc>
-            <lastmod>2021-03-23T17:16:21.235275</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/rootfs.html</loc>
-            <lastmod>2021-03-23T17:53:58.445048</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/contribution/build_doc.html</loc>
-            <lastmod>2021-03-23T17:16:21.238258</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
             <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/contribution/doc_tips.html</loc>
             <lastmod>2021-03-23T17:16:21.239259</lastmod>
             <changefreq>weekly</changefreq>
@@ -507,6 +501,30 @@
         <url>
             <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/contribution/introduction.html</loc>
             <lastmod>2021-03-23T17:16:21.240221</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/contribution/task_tips.html</loc>
+            <lastmod>2021-03-23T17:16:21.242216</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/contribution/todolist.html</loc>
+            <lastmod>2021-03-23T17:16:21.243218</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/driver/touchscreen.html</loc>
+            <lastmod>2021-03-24T09:04:19.538962</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eat.html</loc>
+            <lastmod>2021-03-23T17:16:21.246206</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -577,38 +595,20 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/contribution/task_tips.html</loc>
-            <lastmod>2021-03-23T17:16:21.242216</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/onekey.html</loc>
+            <lastmod>2021-03-23T17:16:21.235275</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/contribution/todolist.html</loc>
-            <lastmod>2021-03-23T17:16:21.243218</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/rootfs.html</loc>
+            <lastmod>2021-03-23T17:53:58.445048</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/driver/touchscreen.html</loc>
-            <lastmod>2021-03-23T17:16:21.245239</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eat.html</loc>
-            <lastmod>2021-03-23T17:16:21.246206</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eye.html</loc>
-            <lastmod>2021-03-23T17:16:21.247203</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/index.html</loc>
-            <lastmod>2021-03-23T17:16:21.248212</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/contribution/build_doc.html</loc>
+            <lastmod>2021-03-23T17:16:21.238258</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -974,7 +974,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/develop_kit_board/grove_ai_hat.html</loc>
-            <lastmod>2021-03-23T17:37:12.950275</lastmod>
+            <lastmod>2021-03-23T18:14:06.331808</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1652,7 +1652,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/builtin_py/index.html</loc>
-            <lastmod>2021-03-23T17:37:12.885456</lastmod>
+            <lastmod>2021-03-23T18:16:01.475743</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1718,7 +1718,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/machine/index.html</loc>
-            <lastmod>2021-03-23T17:37:12.891410</lastmod>
+            <lastmod>2021-03-23T18:16:32.199501</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>

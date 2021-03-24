@@ -91,10 +91,10 @@ var _hmt = _hmt || [];
                     <div id="sidebar_title">
                         
                     </div>
-                    <ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePi</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">简介</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+                    <ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePi</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">简介</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator"></span></a><ul class="show">
 <li class="not_active no_link"><a><span class="label">上手体验</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eye.html"><span class="label">初见</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eat.html"><span class="label">前言</span><span class=""></span></a></li>
@@ -109,6 +109,29 @@ var _hmt = _hmt || [];
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/devicetree.html"><span class="label">设备树添加节点</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/rootfs.html"><span class="label">根文件系统编译</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/build_flash.html"><span class="label">SPI-Flash系统编译</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">驱动开发</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/driver/touchscreen.html"><span class="label">电容触摸屏适配</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">从挖坑到填坑</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/one_openbox.html"><span class="label">开箱介绍</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/two_sunxi-tools.html"><span class="label">编译使用sunxi-tools</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/three_uboot.html"><span class="label">编译使用uboot</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/four_linux.html"><span class="label">编译测试linux</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="active_parent no_link"><a><span class="label">应用开发</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/application/littlevgl.html"><span class="label">littlevGL的使用</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">奉献投稿</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/introduction.html"><span class="label">前言</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/todolist.html"><span class="label">Todolist</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/task_tips.html"><span class="label">快餐任务相关小事项</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/doc_tips.html"><span class="label">文档任务相关小事项</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/build_doc.html"><span class="label">文档构建</span><span class=""></span></a></li>
 </ul>
 </li>
 </ul>
@@ -163,36 +186,42 @@ Nano来说十分适合。</p>
 
 <p><img src="https://littlevgl.com/home/main_cover.png" alt="" /></p>
 
-<p>具体的编写指导，请参考 <a href="https://littlevgl.com/basics">littlevGL<br />
-官方文档</a></p>
+<p>具体的编写指导，请参考 <a href="https://littlevgl.com/basics">littlevGL官方文档</a></p>
 
 <h2 id="littlevgl-3">LittlevGL 下载</h2>
 
-<p>``` {.sourceCode .bash<br />
- :caption: 建立LittlevGL工程文件夹，在此文件夹下进行以下操作：}<br />
-git clone https://github.com/littlevgl/lvgl.git<br />
-git clone https://github.com/littlevgl/lv_drivers.git<br />
-git clone https://github.com/littlevgl/lv_examples.git</p>
+<p>建立LittlevGL工程文件夹，在此文件夹下进行以下操作:</p>
 
-<pre><code>LittlevGL 工程配置
-------------------
+<pre><code>git clone https://github.com/littlevgl/lvgl.git
+git clone https://github.com/littlevgl/lv_drivers.git
+git clone https://github.com/littlevgl/lv_examples.git
+</code></pre>
 
-此处用到三个配置文件，分别是：
+<h2 id="littlevgl-4">LittlevGL 工程配置</h2>
 
-&gt; -   lvgl/lv\_conf\_templ.h
-&gt; -   lv\_drivers/lv\_drv\_conf\_templ.h
-&gt; -   lv\_examples/lv\_ex\_conf\_templ.h
+<p>此处用到三个配置文件，分别是：</p>
 
-将此三配置文件从模块文件夹中复制到项目文件夹，并将其命名为
+<blockquote>
+  <ul>
+  <li>lvgl/lv_conf_templ.h</li>
+  <li>lv_drivers/lv_drv_conf_templ.h</li>
+  <li>lv_examples/lv_ex_conf_templ.h</li>
+  </ul>
+</blockquote>
 
-&gt; -   lv\_conf.h
-&gt; -   lv\_drv\_conf.h
-&gt; -   lv\_ex\_conf.h
+<p>将此三配置文件从模块文件夹中复制到项目文件夹，并将其命名为</p>
 
-添加 main.c 文件
+<blockquote>
+  <ul>
+  <li>lv_conf.h</li>
+  <li>lv_drv_conf.h</li>
+  <li>lv_ex_conf.h</li>
+  </ul>
+</blockquote>
 
-``` {.sourceCode .c}
-#include "lvgl/lvgl.h"
+<p>添加 main.c 文件</p>
+
+<pre><code>#include "lvgl/lvgl.h"
 
 /* 添加 fb 支持 */
 #include "lv_drivers/display/fbdev.h"
@@ -229,37 +258,34 @@ int main(void)
 
 <p><img src="https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/2018-04-09%2013-15-15%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png" alt="" /></p>
 
-<h2 id="littlevgl-4">LittlevGL 板级配置</h2>
+<h2 id="littlevgl-5">LittlevGL 板级配置</h2>
 
 <h3 id="lv_confh">lv_conf.h</h3>
 
-<p>首先在 lv_conf.h 中找到屏幕的定义，并进行修改；</p>
+<p>首先在 lv_conf.h 中找到屏幕的定义，并进行修改；<br />
+此处修改为 800X480 或 480X272:</p>
 
-<p>``` {.sourceCode .c<br />
- :caption: 此处修改为 800X480 或 480X272}</p>
+<pre><code>#define LV_HOR_RES (800)
+#define LV_VER_RES (480)
+</code></pre>
 
-<h1 id="define-lv_hor_res-800">define LV_HOR_RES (800)</h1>
+<h3 id="lv_drv_confh">lv_drv_conf.h</h3>
 
-<h1 id="define-lv_ver_res-480">define LV_VER_RES (480)</h1>
+<p>再看到 lv_drv_conf.h，此文件中定义了输入输出设备的选择</p>
 
-<pre><code>### lv\_drv\_conf.h
+<p>main.c 中已经调用了 linux 下 framebuffer 设备，需要修改：</p>
 
-再看到 lv\_drv\_conf.h，此文件中定义了输入输出设备的选择
+<p><code>#define USE_FBDEV 1</code></p>
 
-main.c 中已经调用了 linux 下 framebuffer 设备，需要修改：
+<p>若有触摸屏，定义为从event0中解析触摸数据：</p>
 
-&gt; `#define USE_FBDEV 1`
+<p><code>#define USE_EVDEV 1</code></p>
 
-若有触摸屏，定义为从event0中解析触摸数据：
+<h3 id="lv_ex_confh">lv_ex_conf.h</h3>
 
-&gt; `#define USE_EVDEV 1`
+<p>此配置文件定义你将要编译哪个应用示例：</p>
 
-### lv\_ex\_conf.h
-
-此配置文件定义你将要编译哪个应用示例：
-
-``` {.sourceCode .c}
-#define USE_LV_BENCHMARK   0
+<pre><code>#define USE_LV_BENCHMARK   0
 #define USE_LV_DEMO        0
 #define USE_LV_SYSMON      0
 #define USE_LV_TERMINAL    0
@@ -270,13 +296,11 @@ main.c 中已经调用了 linux 下 framebuffer 设备，需要修改：
 
 <p>对应的，我们要在 main.c 中进行修改，这里以demo作为示例：</p>
 
-<blockquote>
-  <ol>
-  <li>查看 lv_examples --> lv_apps --> demo --> demo.c</li>
-  <li>可以看到其创建函数为 <strong>demo_creat()</strong></li>
-  <li>修改 main.c 中 while(1)循环前的一句为 <strong>demo_creat()</strong></li>
-  </ol>
-</blockquote>
+<ol>
+<li>查看 lv_examples --> lv_apps --> demo --> demo.c</li>
+<li>可以看到其创建函数为 <strong>demo_creat()</strong></li>
+<li>修改 main.c 中 while(1)循环前的一句为 <strong>demo_creat()</strong></li>
+</ol>
 
 <p>配置完成。</p>
 
@@ -286,47 +310,41 @@ main.c 中已经调用了 linux 下 framebuffer 设备，需要修改：
 
 <p>此时要添加 event输入支持所需的结构体；</p>
 
-<p>``` {.sourceCode .c}<br />
-void demo_create(void)<br />
-{<br />
-    lv_indev_drv_t indev_drv;<br />
-    lv_indev_drv_init(&amp;indev_drv);          /<em>Basic initialization</em>/<br />
-    evdev_init();<br />
-    indev_drv.type = LV_INDEV_TYPE_POINTER; /<em>See below.</em>/<br />
-    indev_drv.read = evdev_read;            /<em>See below.</em>/<br />
-    lv_indev_drv_register(&amp;indev_drv);      /<em>Register the driver in LittlevGL</em>/</p>
+<pre><code>void demo_create(void)
+{
+    lv_indev_drv_t indev_drv;
+    lv_indev_drv_init(&amp;indev_drv);          /*Basic initialization*/
+    evdev_init();
+    indev_drv.type = LV_INDEV_TYPE_POINTER; /*See below.*/
+    indev_drv.read = evdev_read;            /*See below.*/
+    lv_indev_drv_register(&amp;indev_drv);      /*Register the driver in LittlevGL*/
 
-<pre><code>/*……………略……………*/
+    /*……………略……………*/
+}
 </code></pre>
 
-<p>}</p>
+<p>其他配置或移植文档，请参考 <a href="https://littlevgl.com/porting">porting</a></p>
 
-<pre><code>其他配置或移植文档，请参考 [porting](https://littlevgl.com/porting)
+<h2 id="littlevgl-6">LittlevGL 编译</h2>
 
-LittlevGL 编译
---------------
+<p>LittlevGL<br />
+示例程序需要自行编写Makefile或直接使用IDE自动寻找依赖关系进行编译；</p>
 
-LittlevGL
-示例程序需要自行编写Makefile或直接使用IDE自动寻找依赖关系进行编译；
+<blockquote>
+  <p>Nano提供了docker镜像包，可通过docker直接使用cmake编译，编译具体步骤请看cmake部分；</p>
+</blockquote>
 
-&gt; **hint**
-&gt;
-&gt; Nano
-&gt; 提供了docker镜像包，可通过docker直接使用cmake编译，编译具体步骤请看cmake部分；
+<p>笔者本处使用了Clion进行了交叉编译尝试，并附上仅使用cmake来进行编译的步骤；</p>
 
-笔者本处使用了Clion进行了交叉编译尝试，并附上仅使用cmake来进行编译的步骤；
+<h3 id="clion">Clion 配置</h3>
 
-### Clion 配置
+<p>Clion的安装配置本处不再赘述，此处描述交叉编译相关步骤</p>
 
-Clion的安装配置本处不再赘述，此处描述交叉编译相关步骤
+<p>Clion配置工程后，会自动生成 <strong>CMakeLists.txt</strong> ,此文件为 cmake 编译配置文件(Clion使用了cmake来进行构建)；</p>
 
-Clion配置工程后，会自动生成 **CMakeLists.txt** ,此文件为 cmake
-编译配置文件(Clion使用了cmake来进行构建)；
+<p>修改此文件配置，使其使用交叉编译工具进行编译；</p>
 
-修改此文件配置，使其使用交叉编译工具进行编译；
-
-``` {.sourceCode .cmake}
-cmake_minimum_required(VERSION 3.10)        # cmake 版本要高于或等于 3.10
+<pre><code>cmake_minimum_required(VERSION 3.10)        # cmake 版本要高于或等于 3.10
 project(Ui C)                               # 输出的二进制文件名
 
 #set(CMAKE_C_STANDARD 11)                   # 注释掉原有的
@@ -347,10 +365,7 @@ link_directories(/home/biglion/project/buildroot/rootfs/lib)          # 根文�
 
 <h3 id="cmake">Cmake 配置</h3>
 
-<p>若您在本地构建，请下载<br />
-<a href="https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/CMakeLists.txt">CMakeLists.txt</a><br />
-并自行修改lib/include/编译链等目录,确认您的cmake版本高于或等于 3.10<br />
-(要从官网下载编译安装)</p>
+<p>若您在本地构建，请下载<a href="https://fdvad021asfd8q.oss-cn-hangzhou.aliyuncs.com/migrate/CMakeLists.txt">CMakeLists.txt</a>并自行修改lib/include/编译链等目录,确认您的cmake版本高于或等于 3.10 (要从官网下载编译安装)</p>
 
 <p>在docker镜像中，已配置好 cmake；只需修改 CMakeLists.txt 中，rootfs的 lib<br />
 的目录地址；</p>
@@ -358,53 +373,43 @@ link_directories(/home/biglion/project/buildroot/rootfs/lib)          # 根文�
 <blockquote>
   <p>（比如先用 buildroot 构建好了根文件系统，</p>
   
-  <blockquote>
-    <ol>
-    <li>rootfs.tar中包含了 lib ，可将rootfs.tar解压到某处或只取出lib<br />
-    再进行指定</li>
-    <li>或者在 buildroot->output->target 目录下,也包含了lib）</li>
-    </ol>
-  </blockquote>
+  <ol>
+  <li>rootfs.tar中包含了 lib ，可将rootfs.tar解压到某处或只取出lib<br />
+  再进行指定</li>
+  <li>或者在 buildroot->output->target 目录下,也包含了lib）</li>
+  </ol>
 </blockquote>
 
 <p>只需：</p>
 
-<p><code>{.sourceCode .bash}
-cd xxx           # 进入工程目录
+<pre><code>cd xxx           # 进入工程目录
 mkdir build      # 将生成信息等放进新建的目录，令目录结构更为清爽
 cd build
 cmake ..         # cmake 生成 makefile
 make             # 执行编译
-</code></p>
+</code></pre>
 
-<p>生成可执行二进制文件就在 build<br />
-文件夹下，将其放进tf卡的根文件系统所在位置下，运行即可。</p>
+<p>生成可执行二进制文件就在 build 文件夹下，将其放进tf卡的根文件系统所在位置下，运行即可。</p>
 
-<p>也可使用 <a href="https://github.com/littlevgl/pc_simulator">pc_simulator</a><br />
-进行效果预览；</p>
+<p>也可使用 <a href="https://github.com/littlevgl/pc_simulator">pc_simulator</a>进行效果预览；</p>
 
 <blockquote>
-  <p><strong>note</strong></p>
-  
-  <p>若在编译过程中有依赖缺失、函数未定义等情况，请自行寻找对应函数，并添加头文件<br />
-  : )</p>
+  <p>若在编译过程中有依赖缺失、函数未定义等情况，请自行寻找对应函数，并添加头文件: )</p>
 </blockquote>
 
 <blockquote>
-  <p><strong>交流与答疑</strong></p>
-  
-  <p>对于本节内容，如有疑问，欢迎到 <a href="http://bbs.lichee.pro/d/25-gui">GUI<br />
-  交流帖</a> 提问或分享经验。</p>
+  <p><strong>交流与答疑</strong><br />
+  对于本节内容，如有疑问，欢迎到 <a href="http://bbs.lichee.pro/d/25-gui">GUI交流帖</a> 提问或分享经验。</p>
 </blockquote>
 
                         </div>
                     </div>
                     <div id="previous_next">
                         <div id="previous">
-                            
+                            <a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/four_linux.html"><span class="icon"></span><span class="label">编译测试linux</span></a>
                         </div>
                         <div id="next">
-                            
+                            <a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/introduction.html"><span class="label">前言</span><span class="icon"></span></a>
                         </div>
                     </div>
                 </div>

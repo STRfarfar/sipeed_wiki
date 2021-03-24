@@ -91,10 +91,10 @@ var _hmt = _hmt || [];
                     <div id="sidebar_title">
                         
                     </div>
-                    <ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePi</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">简介</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+                    <ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePi</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">简介</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator"></span></a><ul class="show">
 <li class="not_active no_link"><a><span class="label">上手体验</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eye.html"><span class="label">初见</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eat.html"><span class="label">前言</span><span class=""></span></a></li>
@@ -109,6 +109,29 @@ var _hmt = _hmt || [];
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/devicetree.html"><span class="label">设备树添加节点</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/rootfs.html"><span class="label">根文件系统编译</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/build_flash.html"><span class="label">SPI-Flash系统编译</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">驱动开发</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/driver/touchscreen.html"><span class="label">电容触摸屏适配</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">从挖坑到填坑</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/one_openbox.html"><span class="label">开箱介绍</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/two_sunxi-tools.html"><span class="label">编译使用sunxi-tools</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/three_uboot.html"><span class="label">编译使用uboot</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/four_linux.html"><span class="label">编译测试linux</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">应用开发</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/application/littlevgl.html"><span class="label">littlevGL的使用</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="active_parent no_link"><a><span class="label">奉献投稿</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/introduction.html"><span class="label">前言</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/todolist.html"><span class="label">Todolist</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/task_tips.html"><span class="label">快餐任务相关小事项</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/doc_tips.html"><span class="label">文档任务相关小事项</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/build_doc.html"><span class="label">文档构建</span><span class=""></span></a></li>
 </ul>
 </li>
 </ul>
@@ -156,23 +179,19 @@ var _hmt = _hmt || [];
 
 <h2 id="-2">本地构建</h2>
 
-<h3 id="1">1. 拉取文档</h3>
+<h3 id="-3">拉取文档</h3>
 
 <p>若您是阅读者：</p>
 
-<blockquote>
-  <p>打开终端，运行以下命令:</p>
-  
-  <blockquote>
-    <p><code>git clone https://github.com/Lichee-Pi/xxx.git</code></p>
-  </blockquote>
-</blockquote>
+<p>打开终端，运行以下命令:</p>
+
+<pre><code>git clone https://github.com/Lichee-Pi/xxx.git
+</code></pre>
 
 <p>若您是文档贡献者：</p>
 
 <blockquote>
-  <p>建议您 fork 我们github上的文档项目后拉取到本地，便于发起 Pull<br />
-  Request。</p>
+  <p>建议您 fork 我们github上的文档项目后拉取到本地，便于发起 Pull Request。</p>
 </blockquote>
 
 <h3 id="2">2. 安装依赖</h3>
@@ -181,71 +200,64 @@ var _hmt = _hmt || [];
 <li><p>首先我们需要通过pip安装Sphinx</p>
 
 <blockquote>
-  <p><code>pip install Sphinx</code></p>
-  
-  <p>若您没有安装pip，请参照 <a href="http://pip.readthedocs.io/en/stable/installing/">pip<br />
-  安装</a></p>
+  <p>pip install Sphinx<br />
+  若您没有安装pip，请参照 <a href="http://pip.readthedocs.io/en/stable/installing/">pip 安装</a></p>
 </blockquote></li>
 <li><p>接着安装本文档的模块依赖</p>
 
 <blockquote>
-  <p><code>pip install sphinx_rtd_theme</code> 用于支持文档主题</p>
-  
-  <p><code>pip install recommonmark</code> 用于支持Markdown文本格式</p>
+  <p>pip install sphinx_rtd_theme<br />
+  用于支持文档主题<br />
+  pip install recommonmark 用于支持Markdown文本格式</p>
 </blockquote></li>
 </ul>
 
 <h3 id="3">3. 构建</h3>
 
-<p>``` {.sourceCode .bash}<br />
-cd Lichee-Zero-Doc-zh-CN</p>
+<pre><code>cd Lichee-Zero-Doc-zh-CN
 
-<h1 id="windows">windows</h1>
+# windows
+.\make.bat html
 
-<p>.\make.bat html</p>
+# linux
+make html
+</code></pre>
 
-<h1 id="linux">linux</h1>
+<p>构建完成，进入 _build --> html --> index.html</p>
 
-<p>make html</p>
+<p>打开以浏览器浏览即可。</p>
 
-<pre><code>构建完成，进入 \_build --\&gt; html --\&gt; index.html
+<h2 id="-4">技术文档贡献</h2>
 
-打开以浏览器浏览即可。
+<p>若您有意向贡献您的实践经验，请参照 <a href="todolist.html">todolist</a></p>
 
-技术文档贡献
-------------
+<h2 id="restructuredtext">以reStructuredText编写文档</h2>
 
-若您有意向贡献您的实践经验，请参照 [todolist](todolist.html)
+<p>.rst<br />
+文件是轻量级标记语言的一种，被设计为容易阅读和编写的纯文本，并且可以借助Docutils这样的程序进行文档处理，也可以转换为HTML或PDF等多种格式，或由Sphinx-Doc这样的程序转换为LaTex、man等更多格式。</p>
 
-以reStructuredText编写文档
---------------------------
+<p>在本文档中， <em>.rst</em><br />
+文件配合sphinx工具以及readthedoc主题，具有较为丰富的文本表现。</p>
 
-.rst
-文件是轻量级标记语言的一种，被设计为容易阅读和编写的纯文本，并且可以借助Docutils这样的程序进行文档处理，也可以转换为HTML或PDF等多种格式，或由Sphinx-Doc这样的程序转换为LaTex、man等更多格式。
+<p>此外，与Markdown对比来看：</p>
 
-在本文档中， *.rst*
-文件配合sphinx工具以及readthedoc主题，具有较为丰富的文本表现。
+<blockquote>
+  <ol>
+  <li>RST更适合于构建完整较大的文档，Markdown更适用于构建单页应用</li>
+  <li>RST格式更为丰富，Markdown更为简洁</li>
+  <li>RST格式要求稍高于Markdown</li>
+  </ol>
+</blockquote>
 
-此外，与Markdown对比来看：
+<p>reStructuredText语法请参考 <a href="http://docutils.sourceforge.net/docs/user/rst/quickref.html#doctest-blocks">quick reStructuredText</a></p>
 
-&gt; 1.  RST更适合于构建完整较大的文档，Markdown更适用于构建单页应用
-&gt; 2.  RST格式更为丰富，Markdown更为简洁
-&gt; 3.  RST格式要求稍高于Markdown
+<p>个人建议您也可以通过查看 <a href="https://sphinx-rtd-theme.readthedocs.io/en/latest/demo/demo.html#id27">Read theDocs主题示例</a>，配合其<a href="https://github.com/rtfd/sphinx_rtd_theme/edit/master/docs/demo/demo.rst">github</a>的编辑源码模式，可更直观地进行对照、借鉴。</p>
 
-reStructuredText语法请参考 [quick
-reStructuredText](http://docutils.sourceforge.net/docs/user/rst/quickref.html#doctest-blocks)
+<ul>
+<li>另： RST的表格对于中文支持不好，个人推荐借助 <a href="http://pytablewriter.rtfd.io">pytablewriter</a> 来生成中文表格</li>
+</ul>
 
-个人建议您也可以通过查看 [Read the
-Docs主题示例](https://sphinx-rtd-theme.readthedocs.io/en/latest/demo/demo.html#id27)
-，配合其
-[github](https://github.com/rtfd/sphinx_rtd_theme/edit/master/docs/demo/demo.rst)
-的编辑源码模式，可更直观地进行对照、借鉴。
-
--   另： RST的表格对于中文支持不好，个人推荐借助
-    [pytablewriter](http://pytablewriter.rtfd.io) 来生成中文表格
-
-``` {.sourceCode .python}
-# coding: utf-8
+<pre><code># coding: utf-8
 import pytablewriter
 
 writer = pytablewriter.RstGridTableWriter()
@@ -265,21 +277,19 @@ writer.write_table()
   <p><strong>渲染为：</strong></p>
 </blockquote>
 
-<p>``` {.sourceCode .rst<br />
-   :caption: 转换结果：<br />
-   :linenos:}<br />
-.. table:: </p>
+<pre><code>.. table:: 
 
-<p>+----+----+----+<br />
-  |水果|价格|数量|<br />
-  +====+====+====+<br />
-  |香蕉|   1|   5|<br />
-  +----+----+----+<br />
-  |苹果|   1|   6|<br />
-  +----+----+----+<br />
-  |草莓|   1|   7|<br />
-  +----+----+----+<br />
-```</p>
+
+  +----+----+----+
+  |水果|价格|数量|
+  +====+====+====+
+  |香蕉|   1|   5|
+  +----+----+----+
+  |苹果|   1|   6|
+  +----+----+----+
+  |草莓|   1|   7|
+  +----+----+----+
+</code></pre>
 
 <h2 id="markdown">以Markdown编写文档</h2>
 
@@ -294,9 +304,7 @@ writer.write_table()
   <p>若您单纯使用Markdown书写，无需注意以下所有内容；</p>
   
   <p>若您 <strong>想用Markdown而不涉及rst及其语法</strong> 构建您的 <strong>个人文档</strong><br />
-  时，建议您使用 <a href="http://www.mkdocs.org/">Mkdocs</a> 替代sphinx，参阅<br />
-  <a href="http://docs.readthedocs.io/en/latest/builds.html#mkdocs">readthedocs build<br />
-  process</a> ；</p>
+  时，建议您使用 <a href="http://www.mkdocs.org/">Mkdocs</a> 替代sphinx，参阅 <a href="http://docs.readthedocs.io/en/latest/builds.html#mkdocs">readthedocs buildprocess</a>；</p>
   
   <p>若您将Markdown文件加入sphinx的构建行列，请注意以下两条：</p>
   
@@ -304,20 +312,17 @@ writer.write_table()
   <li><p>要使用sphinx所提供的特性时，如：</p>
   
   <blockquote>
-    <blockquote>
-      <p><strong>tip</strong></p>
-      
-      <p>15% if the service is good.</p>
-    </blockquote>
-    
-    <blockquote>
-      <p><strong>error</strong></p>
-      
-      <p>Does not compute.</p>
-    </blockquote>
-    
-    <p>请将其标为代码片段，代码类型为：<br />
-    <strong>eval_rst</strong>，sphinx将会将此片段作为rst文本进行解析：</p>
+    <p><strong>Tip</strong><br />
+    15% if the service is good.</p>
+  </blockquote>
+  
+  <blockquote>
+    <p><strong>Error</strong><br />
+    Does not compute.</p>
+  </blockquote>
+  
+  <blockquote>
+    <p>请将其标为代码片段，代码类型为：<strong>eval_rst</strong>，sphinx将会将此片段作为rst文本进行解析：</p>
 
 <pre><code>```eval_rst
 
@@ -336,7 +341,7 @@ writer.write_table()
                     </div>
                     <div id="previous_next">
                         <div id="previous">
-                            
+                            <a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/doc_tips.html"><span class="icon"></span><span class="label">文档任务相关小事项</span></a>
                         </div>
                         <div id="next">
                             

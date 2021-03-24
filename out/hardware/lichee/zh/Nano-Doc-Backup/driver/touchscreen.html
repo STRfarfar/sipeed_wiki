@@ -91,10 +91,10 @@ var _hmt = _hmt || [];
                     <div id="sidebar_title">
                         
                     </div>
-                    <ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePi</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">简介</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+                    <ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePi</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">简介</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">LicheePI Nano</span><span class="sub_indicator"></span></a><ul class="show">
 <li class="not_active no_link"><a><span class="label">上手体验</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eye.html"><span class="label">初见</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eat.html"><span class="label">前言</span><span class=""></span></a></li>
@@ -109,6 +109,29 @@ var _hmt = _hmt || [];
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/devicetree.html"><span class="label">设备树添加节点</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/rootfs.html"><span class="label">根文件系统编译</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/build_flash.html"><span class="label">SPI-Flash系统编译</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="active_parent no_link"><a><span class="label">驱动开发</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/driver/touchscreen.html"><span class="label">电容触摸屏适配</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">从挖坑到填坑</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/one_openbox.html"><span class="label">开箱介绍</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/two_sunxi-tools.html"><span class="label">编译使用sunxi-tools</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/three_uboot.html"><span class="label">编译使用uboot</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/four_linux.html"><span class="label">编译测试linux</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">应用开发</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/application/littlevgl.html"><span class="label">littlevGL的使用</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">奉献投稿</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/introduction.html"><span class="label">前言</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/todolist.html"><span class="label">Todolist</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/task_tips.html"><span class="label">快餐任务相关小事项</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/doc_tips.html"><span class="label">文档任务相关小事项</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Nano-Doc-Backup/contribution/build_doc.html"><span class="label">文档构建</span><span class=""></span></a></li>
 </ul>
 </li>
 </ul>
@@ -153,57 +176,40 @@ var _hmt = _hmt || [];
 
 <p>本篇需要启动linux系统，所需用到的工具：</p>
 
-<blockquote>
-  <ul>
-  <li><p>ts-lib</p>
-  
-  <blockquote>
-    <ul>
-    <li>ts_test</li>
-    <li>ts_calibrate</li>
-    </ul>
-  </blockquote></li>
-  <li><p>evtest</p></li>
-  </ul>
-</blockquote>
+<ul>
+<li>ts-lib<br />
+<ul><br />
+<li>ts_test</li><br />
+<li>ts_calibrate</li><br />
+</ul></li>
+<li>evtest</li>
+</ul>
 
 <p>在前文设备树中，我们就已经对i2c接口的电容触摸屏做了初始化，以下是进行电容触摸屏的调整与测试：</p>
 
-<p>``` {.sourceCode .bash}<br />
-ls /dev/input   # 查看是否存在input/event0</p>
+<pre><code>ls /dev/input   # 查看是否存在input/event0
 
-<h1 id="-2">若不存在，找到触摸模块并加载</h1>
+# 若不存在，找到触摸模块并加载 
+insmod goodix.ko   
+# 如根文件系统未找到goodix.ko，请在linux源码的output目录下查找并放入根文件系统下
 
-<p>insmod goodix.ko   </p>
+# 若存在
+evtest /dev/input/event0  # 使用evtest测试输入的xy坐标数据
 
-<h1 id="goodixkolinuxoutput">如根文件系统未找到goodix.ko，请在linux源码的output目录下查找并放入根文件系统下</h1>
+# 直观的测试
+ts_test
 
-<h1 id="-3">若存在</h1>
+# 触摸校准工具
+ts_calibrate
+</code></pre>
 
-<p>evtest /dev/input/event0  # 使用evtest测试输入的xy坐标数据</p>
+<p>但是 ts_calibrate 仅仅是将校准参数写到 /etc/pointcrl文件中，适用于微调，tslib下的工具如 ts_test将会读取此校准文件而表现的触摸正常；而 evtest 读取原始数据、littlevGL程序调用 event0的输入时，并未去解析该参数文件。同样也有一定可能是该触摸屏内置参数即为错误的，难以进行校准。</p>
 
-<h1 id="-4">直观的测试</h1>
+<p>测试时，发现xy轴输出互相调换了，请添加或去掉 gt911节点下 的 <em>touchscreen-swapped-x-y</em> 属性</p>
 
-<p>ts_test</p>
+<p>若是发现触摸屏输出跳动大，屏幕上有些地方检测不到输出，此处采取修改驱动的办法进行解决：通过 i2c 向 电容触摸芯片GT911 写入固定的参数(相当于重刷GT911的固件)；</p>
 
-<h1 id="-5">触摸校准工具</h1>
-
-<p>ts_calibrate</p>
-
-<pre><code>但是 ts\_calibrate 仅仅是将校准参数写到 /etc/pointcrl
-文件中，适用于微调，tslib下的工具如 ts\_test
-将会读取此校准文件而表现的触摸正常；而 evtest 读取原始数据、littlevGL
-程序调用 event0
-的输入时，并未去解析该参数文件。同样也有一定可能是该触摸屏内置参数即为错误的，难以进行校准。
-
-测试时，发现xy轴输出互相调换了，请添加或去掉 gt911节点下 的
-*touchscreen-swapped-x-y* 属性
-
-若是发现触摸屏输出跳动大，屏幕上有些地方检测不到输出，此处采取修改驱动的办法进行解决：通过
-i2c 向 电容触摸芯片GT911 写入固定的参数(相当于重刷GT911的固件)；
-
-``` {.sourceCode .c}
-// 找到一个加载模块时会调用到的函数 
+<pre><code>// 找到一个加载模块时会调用到的函数 
 
 static void goodix_read_config(struct goodix_ts_data *ts)
 {
@@ -251,28 +257,23 @@ static void goodix_read_config(struct goodix_ts_data *ts)
 }
 </code></pre>
 
-<p>将此驱动编译成模块，使用 <code>insmod</code><br />
-加载模块后作为修正屏幕参数所用，控制台将会输出gt911各寄存器的参数；修改完毕后使用<br />
-<code>rmmod goodix.ko</code> 卸载模块，重新加载正常的驱动。</p>
+<p>将此驱动编译成模块，使用 <code>insmod</code>加载模块后作为修正屏幕参数所用，控制台将会输出gt911各寄存器的参数；修改完毕后使用<code>rmmod goodix.ko</code> 卸载模块，重新加载正常的驱动。</p>
 
-<p>若再测试时，发现xy轴输出互相调换了，请添加或去掉gt911节点下的<br />
-<em>touchscreen-swapped-x-y</em> 属性</p>
+<p>若再测试时，发现xy轴输出互相调换了，请添加或去掉gt911节点下的<em>touchscreen-swapped-x-y</em> 属性</p>
 
 <blockquote>
-  <p><strong>交流与答疑</strong></p>
-  
-  <p>对于本节内容，如有疑问，欢迎到<br />
-  <a href="http://bbs.lichee.pro/d/24--">模组使用交流帖</a> 提问或分享经验。</p>
+  <p><strong>交流与答疑</strong><br />
+  对于本节内容，如有疑问，欢迎到 <a href="http://bbs.lichee.pro/d/24--">模组使用交流帖</a> 提问或分享经验。</p>
 </blockquote>
 
                         </div>
                     </div>
                     <div id="previous_next">
                         <div id="previous">
-                            
+                            <a href="/hardware/lichee/zh/Nano-Doc-Backup/build_sys/build_flash.html"><span class="icon"></span><span class="label">SPI-Flash系统编译</span></a>
                         </div>
                         <div id="next">
-                            
+                            <a href="/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/one_openbox.html"><span class="label">开箱介绍</span><span class="icon"></span></a>
                         </div>
                     </div>
                 </div>
