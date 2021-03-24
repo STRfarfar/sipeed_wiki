@@ -8,7 +8,7 @@
                 "items": [
                     {
                         "id": "zh",
-                        "url": "hardware/maixduino/zh/",
+                        "url": "hardware/maixduino/zh",
                         "label": "中文"
                     },
                     {
