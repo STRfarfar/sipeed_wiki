@@ -1,5 +1,5 @@
 {
-    "items":[
+    "items": [
         {
             "label":"MaixDuino",
             "items":[
@@ -13,7 +13,6 @@
                 {
                     "label":"获得开发板",
                     "file":"get_started/get_hardware.md"
-
                 },
                 {
                     "label":"安装开发环境",
@@ -141,7 +140,8 @@
             ]
         }
         
-           
+        
+        
         
     ]
 }
