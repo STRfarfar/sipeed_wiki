@@ -550,7 +550,7 @@ fm.register(board_info.PIN11,fm.fpioa.UART2_RX)
 
 <h3 id="1">例程 1</h3>
 
-<p>在运行里程之前，请确认 <code>PIN15</code> 已经连接到 <code>PIN10</code>， <code>PIN17</code> 已经连接到 <code>PIN9</code></p>
+<p>在运行里程之前，请确认 <code>PIN4</code> 已经连接到 <code>PIN10</code>， <code>PIN3</code> 已经连接到 <code>PIN11</code></p>
 
 <p>运行程序后，可以在终端看到 <code>baudrate:115200 bits:8 parity:0 stop:0 ---check Successfully</code> 的打印信息</p>
 
@@ -562,8 +562,8 @@ from fpioa_manager import fm
 # maixduino board_info PIN10/PIN11/PIN12/PIN13 or other hardware IO 12/11/10/3
 fm.register(board_info.PIN10, fm.fpioa.UART1_TX, force=True)
 fm.register(board_info.PIN11, fm.fpioa.UART1_RX, force=True)
-fm.register(board_info.PIN12, fm.fpioa.UART2_TX, force=True)
-fm.register(board_info.PIN13, fm.fpioa.UART2_RX, force=True)
+fm.register(board_info.PIN3, fm.fpioa.UART2_TX, force=True)
+fm.register(board_info.PIN4, fm.fpioa.UART2_RX, force=True)
 
 uart_A = UART(UART.UART1, 115200, 8, 0, 0, timeout=1000, read_buf_len=4096)
 uart_B = UART(UART.UART2, 115200, 8, 0, 0, timeout=1000, read_buf_len=4096)
@@ -571,18 +571,20 @@ uart_B = UART(UART.UART2, 115200, 8, 0, 0, timeout=1000, read_buf_len=4096)
 write_str = 'hello world'
 for i in range(20):
     uart_A.write(write_str)
-    if uart_A.any():
-        read_data = uart_B.read()
-        if read_data:
-            read_str = read_data.decode('utf-8')
-            print("string = ", read_str)
-            if read_str == write_str:
-                print("baudrate:115200 bits:8 parity:0 stop:0 ---check Successfully")
+
+    read_data = uart_B.read()
+    if read_data:
+        read_str = read_data.decode('utf-8')
+        print("string = ", read_str)
+        if read_str == write_str:
+            print("baudrate:115200 bits:8 parity:0 stop:0 ---check Successfully")
+
 
 uart_A.deinit()
 uart_B.deinit()
 del uart_A
 del uart_B
+
 </code></pre>
 
 <h3 id="2">例程 2</h3>

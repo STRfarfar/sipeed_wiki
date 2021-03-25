@@ -67,6 +67,24 @@
             <priority>1.0</priority>
         </url>
         <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixduino/zh/contribute/code_convention.html</loc>
+            <lastmod>2021-03-24T16:22:56.621062</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixduino/zh/contribute/doc_convention.html</loc>
+            <lastmod>2021-03-24T16:22:56.622060</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixduino/zh/contribute/index.html</loc>
+            <lastmod>2021-03-24T16:22:56.621062</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
             <loc>https://wiki.sipeed.com/hardware/maix/zh/maixduino/zh/libs/wifiesp.html</loc>
             <lastmod>2021-03-24T16:22:56.628043</lastmod>
             <changefreq>weekly</changefreq>
@@ -103,26 +121,8 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixduino/zh/contribute/code_convention.html</loc>
-            <lastmod>2021-03-24T16:22:56.621062</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixduino/zh/contribute/doc_convention.html</loc>
-            <lastmod>2021-03-24T16:22:56.622060</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixduino/zh/contribute/index.html</loc>
-            <lastmod>2021-03-24T16:22:56.621062</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_psram.html</loc>
-            <lastmod>2021-03-24T16:22:56.544697</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixpy_develop_kit_board/maix_duino.html</loc>
+            <lastmod>2021-03-24T16:22:56.541705</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -159,12 +159,6 @@
         <url>
             <loc>https://wiki.sipeed.com/hardware/maix/zh/index.html</loc>
             <lastmod>2021-03-24T16:22:56.539710</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/zh/maixpy_develop_kit_board/maix_duino.html</loc>
-            <lastmod>2021-03-24T16:22:56.541705</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -224,6 +218,12 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_micarray.html</loc>
+            <lastmod>2021-03-24T16:22:56.544697</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/zh/modules_spmod/spmod_psram.html</loc>
             <lastmod>2021-03-24T16:22:56.544697</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
@@ -301,18 +301,6 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_weather.html</loc>
-            <lastmod>2021-03-24T16:22:56.538713</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/en/index.html</loc>
-            <lastmod>2021-03-24T16:22:56.531731</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
             <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_ethernet.html</loc>
             <lastmod>2021-03-24T16:22:56.534724</lastmod>
             <changefreq>weekly</changefreq>
@@ -327,6 +315,18 @@
         <url>
             <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_fpc.html</loc>
             <lastmod>2021-03-24T16:22:56.535720</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_weather.html</loc>
+            <lastmod>2021-03-24T16:22:56.538713</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/en/index.html</loc>
+            <lastmod>2021-03-24T16:22:56.531731</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1136,7 +1136,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/onekey.html</loc>
-            <lastmod>2021-03-24T16:22:55.654581</lastmod>
+            <lastmod>2021-03-25T15:39:01.320444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1184,13 +1184,13 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eat.html</loc>
-            <lastmod>2021-03-24T16:22:55.657979</lastmod>
+            <lastmod>2021-03-25T15:36:58.517732</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/get_started/first_eye.html</loc>
-            <lastmod>2021-03-24T16:22:55.657979</lastmod>
+            <lastmod>2021-03-25T15:35:24.679010</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1275,366 +1275,6 @@
         <url>
             <loc>https://wiki.sipeed.com/hardware/tang/en/index.html</loc>
             <lastmod>2021-03-24T16:22:56.673442</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/sd.html</loc>
-            <lastmod>2021-03-24T16:22:56.627046</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/sipeed_ov2640.html</loc>
-            <lastmod>2021-03-24T16:22:56.627046</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/sipeed_st7789.html</loc>
-            <lastmod>2021-03-24T16:22:56.627046</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/speechrecg.html</loc>
-            <lastmod>2021-03-24T16:22:56.627046</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/spi.html</loc>
-            <lastmod>2021-03-24T16:22:56.628043</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/camera.html</loc>
-            <lastmod>2021-03-24T16:22:56.626048</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/littlevgl.html</loc>
-            <lastmod>2021-03-24T16:22:56.626048</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/maix_kpu.html</loc>
-            <lastmod>2021-03-24T16:22:56.626048</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/msa300.html</loc>
-            <lastmod>2021-03-24T16:22:56.626048</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/ns2009.html</loc>
-            <lastmod>2021-03-24T16:22:56.627046</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/ticker.html</loc>
-            <lastmod>2021-03-24T16:22:56.628043</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/wifiesp.html</loc>
-            <lastmod>2021-03-24T16:22:56.628043</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/libs/wire.html</loc>
-            <lastmod>2021-03-24T16:22:56.628043</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/index.html</loc>
-            <lastmod>2021-03-24T16:29:52.465369</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/contribute/code_convention.html</loc>
-            <lastmod>2021-03-24T16:22:56.621062</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/contribute/doc_convention.html</loc>
-            <lastmod>2021-03-24T16:22:56.622060</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/contribute/index.html</loc>
-            <lastmod>2021-03-24T16:22:56.621062</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/cores/advanced.html</loc>
-            <lastmod>2021-03-24T16:22:56.622060</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/cores/time.html</loc>
-            <lastmod>2021-03-24T16:22:56.624053</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/get_started/arduinoide.html</loc>
-            <lastmod>2021-03-24T16:22:56.625051</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/get_started/get_hardware.html</loc>
-            <lastmod>2021-03-24T16:22:56.625051</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/get_started/install.html</loc>
-            <lastmod>2021-03-24T16:22:56.625051</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/get_started/platformio.html</loc>
-            <lastmod>2021-03-24T16:22:56.625051</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/cores/analog.html</loc>
-            <lastmod>2021-03-24T16:22:56.622060</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/cores/constants.html</loc>
-            <lastmod>2021-03-24T16:22:56.623056</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/cores/digital.html</loc>
-            <lastmod>2021-03-24T16:22:56.623056</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/cores/interrupts.html</loc>
-            <lastmod>2021-03-24T16:22:56.623056</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/zh/cores/serial.html</loc>
-            <lastmod>2021-03-24T16:22:56.624053</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/hardware/binocular.html</loc>
-            <lastmod>2021-03-24T16:22:56.606839</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/hardware/bit.html</loc>
-            <lastmod>2021-03-24T16:22:56.606839</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/hardware/board.html</loc>
-            <lastmod>2021-03-24T16:22:56.606839</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/hardware/dan_dock.html</loc>
-            <lastmod>2021-03-24T16:22:56.606839</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/hardware/go.html</loc>
-            <lastmod>2021-03-24T16:22:56.606839</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/SUMMARY.html</loc>
-            <lastmod>2021-03-24T16:22:56.599860</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/hardware/k210.html</loc>
-            <lastmod>2021-03-24T16:22:56.607836</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/hardware/lcd.html</loc>
-            <lastmod>2021-03-24T16:22:56.607836</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/hardware/m1.html</loc>
-            <lastmod>2021-03-24T16:22:56.607836</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/hardware/mic_array.html</loc>
-            <lastmod>2021-03-24T16:22:56.608834</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/hardware/module.html</loc>
-            <lastmod>2021-03-24T16:22:56.608834</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/libs/spi.html</loc>
-            <lastmod>2021-03-24T16:22:56.611574</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/others/what_maix_do.html</loc>
-            <lastmod>2021-03-24T16:22:56.611827</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/index.html</loc>
-            <lastmod>2021-03-24T16:22:56.599860</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/contribute/code_convention.html</loc>
-            <lastmod>2021-03-24T16:22:56.602859</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/contribute/doc_convention.html</loc>
-            <lastmod>2021-03-24T16:22:56.602859</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/contribute/index.html</loc>
-            <lastmod>2021-03-24T16:22:56.602859</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/hardware/peripheral_modules.html</loc>
-            <lastmod>2021-03-24T16:22:56.608834</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/libs/msa300.html</loc>
-            <lastmod>2021-03-24T16:22:56.609834</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/libs/ns2009.html</loc>
-            <lastmod>2021-03-24T16:22:56.609834</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/libs/sipeed_ov2640.html</loc>
-            <lastmod>2021-03-24T16:22:56.609834</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/libs/sipeed_st7789.html</loc>
-            <lastmod>2021-03-24T16:22:56.610829</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/cores/advanced.html</loc>
-            <lastmod>2021-03-24T16:22:56.603847</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/cores/analog.html</loc>
-            <lastmod>2021-03-24T16:22:56.603847</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/cores/constants.html</loc>
-            <lastmod>2021-03-24T16:22:56.603847</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/cores/digital.html</loc>
-            <lastmod>2021-03-24T16:22:56.603847</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/cores/interrupts.html</loc>
-            <lastmod>2021-03-24T16:22:56.604845</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/cores/serial.html</loc>
-            <lastmod>2021-03-24T16:22:56.604845</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/cores/time.html</loc>
-            <lastmod>2021-03-24T16:22:56.604845</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/get_started/blink.html</loc>
-            <lastmod>2021-03-24T16:22:56.605842</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/get_started/get_hardware.html</loc>
-            <lastmod>2021-03-24T16:22:56.605842</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maixduino/en/get_started/install.html</loc>
-            <lastmod>2021-03-24T16:22:56.605842</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -2378,7 +2018,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/media/video.html</loc>
-            <lastmod>2021-03-25T13:46:19.036311</lastmod>
+            <lastmod>2021-03-25T15:05:54.769557</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -2714,7 +2354,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/machine/uart.html</loc>
-            <lastmod>2021-03-25T09:17:57.487911</lastmod>
+            <lastmod>2021-03-25T16:37:53.276298</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
