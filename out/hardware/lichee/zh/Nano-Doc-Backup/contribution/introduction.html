@@ -51,7 +51,6 @@ var _hmt = _hmt || [];
 <li class="active"><a  href="/hardware/lichee/zh/">Lichee Pi</a></li>
 <li class=""><a  href="/hardware/tang/zh/">Tang</a></li>
 <li class=""><a  href="/hardware/longan/zh/">Longan</a></li>
-<li class=""><a  href="/hardware/maixduino/zh/">maixduino</a></li>
 </ul>
 </li>
 <li class="sub_items "><a>商业产品</a><ul><li class=""><a  href="/hardware/maixface/zh/">Maix Face</a></li>
@@ -140,11 +139,37 @@ var _hmt = _hmt || [];
 </li>
 <li class="not_active no_link"><a><span class="label">LicheePI Zero</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active no_link"><a><span class="label">初来乍到</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
-<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/入门/intro_cn.html"><span class="label">荔枝派与创作者的自我介绍</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/入门/tips.html"><span class="label">Linux使用小贴士</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/入门/board_intro.html"><span class="label">认识zero的硬件</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/入门/docker_index.html"><span class="label">Docker环境简明教程</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/系统开发/type.html"><span class="label">Zero的开发环境分类</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/Start/intro_cn.html"><span class="label">荔枝派与创作者的自我介绍</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/Start/tips.html"><span class="label">Linux使用小贴士</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/Start/board_intro.html"><span class="label">认识zero的硬件</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/Start/docker_index.html"><span class="label">Docker环境简明教程</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/Start/docker_env.html"><span class="label">Docker开发环境</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/Start/docker_command.html"><span class="label">Docker命令速查</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/Start/docker_ubuntu.html"><span class="label">基础ubuntu系统配置</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/System_Development/type.html"><span class="label">Zero的开发环境分类</span><span class=""></span></a></li>
+<li class="not_active no_link"><a><span class="label">主线Uboot</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/System_Development/uboot_build.html"><span class="label">Uboot 编译</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/System_Development/uboot_conf.html"><span class="label">Uboot 配置</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/System_Development/uboot_logo.html"><span class="label">开机logo替换</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">主线Kernel</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/System_Development/kernel_build.html"><span class="label">主线Kernel基础编译</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/System_Development/kernel_printk.html"><span class="label">内核printk等级设置</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">BSP内核编译</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/System_Development/bsp_build.html"><span class="label">BSP源码下载与编译</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/System_Development/bsp_review.html"><span class="label"> BSP内核构建走读</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/System_Development/bsp_cam.html"><span class="label">BSP内核的摄像头使用</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/hardware/lichee/zh/Zero-Doc/System_Development/bsp_mem.html"><span class="label">bsp内核中的保留内存</span><span class=""></span></a></li>
+</ul>
+</li>
+<li class="not_active no_link"><a><span class="label">根文件系统编译</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -189,7 +214,7 @@ var _hmt = _hmt || [];
 <p>需要什么教程的朋友可以在这里留言，将会添加进TODO List里。</p>
 
 <p>本文不定期更新开发者任务，有荔枝派相关的，也有其他小项目的，有兴趣的朋友可以在其下留言或者直接小窗联系群主QQ：715805855,<br />
-或者邮箱 <a href="&#x6d;&#97;&#105;&#x6c;&#116;&#111;&#58;&#x7a;&#x65;&#112;&#97;n&#x77;&#117;&#x63;&#x61;&#105;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;">&#x7a;&#x65;&#112;&#97;n&#x77;&#117;&#x63;&#x61;&#105;&#x40;&#103;&#x6d;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#x6d;</a> 领取任务。</p>
+或者邮箱 <a href="&#109;&#97;&#105;&#x6c;&#x74;&#111;&#58;&#x7a;&#101;&#x70;&#97;&#110;&#119;&#x75;&#x63;&#97;&#105;&#x40;g&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;">&#x7a;&#101;&#x70;&#97;&#110;&#119;&#x75;&#x63;&#97;&#105;&#x40;g&#109;&#x61;&#105;&#108;&#x2e;&#99;&#111;&#109;</a> 领取任务。</p>
 
 <p>荔枝派Nano 目前有两种协作方式：</p>
 
