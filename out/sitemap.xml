@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
             <loc>https://wiki.sipeed.com/hardware/maix/zh/maixduino/zh/get_started/platformio.html</loc>
-            <lastmod>2021-03-26T10:13:44.446379</lastmod>
+            <lastmod>2021-03-26T11:24:38.150100</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -290,7 +290,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/hardware/maix/zh/maixduino/zh/get_started/install.html</loc>
-            <lastmod>2021-03-24T16:22:56.625051</lastmod>
+            <lastmod>2021-03-26T13:03:12.321206</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -313,24 +313,6 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_ethernet.html</loc>
-            <lastmod>2021-03-24T16:22:56.534724</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_extender.html</loc>
-            <lastmod>2021-03-24T16:22:56.535720</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_fpc.html</loc>
-            <lastmod>2021-03-24T16:22:56.535720</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
             <loc>https://wiki.sipeed.com/hardware/maix/en/maixpy_develop_kit_board/maix_Amigo.html</loc>
             <lastmod>2021-03-24T16:22:56.533726</lastmod>
             <changefreq>weekly</changefreq>
@@ -345,6 +327,24 @@
         <url>
             <loc>https://wiki.sipeed.com/hardware/maix/en/maixpy_develop_kit_board/maix_duino.html</loc>
             <lastmod>2021-03-24T16:22:56.533726</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_ethernet.html</loc>
+            <lastmod>2021-03-24T16:22:56.534724</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_extender.html</loc>
+            <lastmod>2021-03-24T16:22:56.535720</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/hardware/maix/en/modules_spmod/spmod_fpc.html</loc>
+            <lastmod>2021-03-24T16:22:56.535720</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -589,500 +589,38 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/autorun.html</loc>
-            <lastmod>2021-03-24T18:07:51.102212</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/two_sunxi-tools.html</loc>
+            <lastmod>2021-03-24T16:22:55.660971</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/debug.html</loc>
-            <lastmod>2021-03-24T18:07:51.103078</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/index.html</loc>
+            <lastmod>2021-03-25T18:04:58.798313</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/otg2PC.html</loc>
-            <lastmod>2021-03-24T18:07:51.103765</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/five_buidroot.html</loc>
+            <lastmod>2021-03-24T16:22:55.659979</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/bsp_index.html</loc>
-            <lastmod>2021-03-24T18:10:05.482396</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/four_linux.html</loc>
+            <lastmod>2021-03-24T16:22:55.659979</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/bsp_mem.html</loc>
-            <lastmod>2021-03-24T18:10:05.482681</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/one_openbox.html</loc>
+            <lastmod>2021-03-24T16:22:55.660971</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/bsp_review.html</loc>
-            <lastmod>2021-03-24T18:10:05.484252</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/download_dd.html</loc>
-            <lastmod>2021-03-24T18:10:05.484252</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/download_LL.html</loc>
-            <lastmod>2021-03-24T18:10:05.485709</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/download_onekey.html</loc>
-            <lastmod>2021-03-24T18:10:05.485709</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/download_SPI.html</loc>
-            <lastmod>2021-03-24T18:10:05.486709</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/filesys_index.html</loc>
-            <lastmod>2021-03-24T18:10:05.486709</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/Imager.html</loc>
-            <lastmod>2021-03-24T18:10:05.488703</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/kernel_build.html</loc>
-            <lastmod>2021-03-24T18:10:05.488703</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/kernel_index.html</loc>
-            <lastmod>2021-03-24T18:10:05.489701</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/SPI_falsh_doc1.html</loc>
-            <lastmod>2021-03-24T18:10:05.489701</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/CODEC.html</loc>
-            <lastmod>2021-03-24T18:09:07.937640</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/device_index.html</loc>
-            <lastmod>2021-03-24T18:09:07.938252</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/Device_Tree_Intro.html</loc>
-            <lastmod>2021-03-24T18:09:07.939424</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/Ethernet.html</loc>
-            <lastmod>2021-03-24T18:09:07.940456</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/GPIO_file.html</loc>
-            <lastmod>2021-03-24T18:09:07.941249</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/GPIO_index.html</loc>
-            <lastmod>2021-03-24T18:09:07.941637</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/GPIO_mmap.html</loc>
-            <lastmod>2021-03-24T18:09:07.942669</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/GPIO_pinctrl_intro.html</loc>
-            <lastmod>2021-03-24T18:09:07.943333</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/GPIO_py.html</loc>
-            <lastmod>2021-03-24T18:09:07.943333</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/GPU&DRM.html</loc>
-            <lastmod>2021-03-24T18:09:07.944582</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/I2C.html</loc>
-            <lastmod>2021-03-24T18:09:07.945367</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/peripheral_index.html</loc>
-            <lastmod>2021-03-24T18:09:07.945979</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/PWM.html</loc>
-            <lastmod>2021-03-24T18:09:07.946925</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/RGB_LCD.html</loc>
-            <lastmod>2021-03-24T18:09:07.948122</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/SPI_LCD.html</loc>
-            <lastmod>2021-03-24T18:09:07.948934</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/UART.html</loc>
-            <lastmod>2021-03-24T18:09:07.949609</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/uboot_GPIO.html</loc>
-            <lastmod>2021-03-24T18:09:07.949997</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/watchdog.html</loc>
-            <lastmod>2021-03-24T18:09:07.950433</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/index.html</loc>
-            <lastmod>2021-03-24T18:10:15.559989</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Start/board_intro.html</loc>
-            <lastmod>2021-03-24T18:09:40.140447</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Start/docker_command.html</loc>
-            <lastmod>2021-03-24T18:09:40.141112</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Start/docker_env.html</loc>
-            <lastmod>2021-03-24T18:09:40.141615</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Start/docker_index.html</loc>
-            <lastmod>2021-03-24T18:09:40.142180</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Start/docker_ubuntu.html</loc>
-            <lastmod>2021-03-24T18:09:40.142740</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Start/intro_cn.html</loc>
-            <lastmod>2021-03-24T18:09:40.143423</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Start/tips.html</loc>
-            <lastmod>2021-03-24T18:09:40.144111</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/bsp_build.html</loc>
-            <lastmod>2021-03-24T18:10:05.479209</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/bsp_cam.html</loc>
-            <lastmod>2021-03-24T18:10:05.481287</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/QT_doc1.html</loc>
-            <lastmod>2021-03-24T18:07:51.104443</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/QT_doc2.html</loc>
-            <lastmod>2021-03-24T18:07:51.105374</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/QT_doc3.html</loc>
-            <lastmod>2021-03-24T18:07:51.106088</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/QT_doc4.html</loc>
-            <lastmod>2021-03-24T18:07:51.106601</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/QT_doc5.html</loc>
-            <lastmod>2021-03-24T18:07:51.107197</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/QT_doc6.html</loc>
-            <lastmod>2021-03-24T18:07:51.107927</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/QT_doc7.html</loc>
-            <lastmod>2021-03-24T18:07:51.108198</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/QT_doc8.html</loc>
-            <lastmod>2021-03-24T18:07:51.108755</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/QT_doc9.html</loc>
-            <lastmod>2021-03-24T18:07:51.109404</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/QT_index.html</loc>
-            <lastmod>2021-03-24T18:07:51.109876</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/application/USB_cam.html</loc>
-            <lastmod>2021-03-24T18:07:51.110463</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 1.html</loc>
-            <lastmod>2021-03-24T18:08:27.007389</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 10.html</loc>
-            <lastmod>2021-03-24T18:08:27.007953</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 11.html</loc>
-            <lastmod>2021-03-24T18:08:27.008735</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/SPI_falsh_doc2.html</loc>
-            <lastmod>2021-03-24T18:10:05.490703</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/SPI_falsh_doc3.html</loc>
-            <lastmod>2021-03-24T18:10:05.491695</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/SPI_falsh_doc4.html</loc>
-            <lastmod>2021-03-24T18:10:05.491695</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/SPI_falsh_doc5.html</loc>
-            <lastmod>2021-03-24T18:10:05.492694</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/SPI_falsh_doc6.html</loc>
-            <lastmod>2021-03-24T18:10:05.493690</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/SPI_flash_build.html</loc>
-            <lastmod>2021-03-24T18:10:05.494688</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/SPI_index.html</loc>
-            <lastmod>2021-03-24T18:10:05.495748</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/type.html</loc>
-            <lastmod>2021-03-24T18:10:05.496331</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/uboot_build.html</loc>
-            <lastmod>2021-03-24T18:10:05.496331</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/uboot_conf.html</loc>
-            <lastmod>2021-03-24T18:10:05.497302</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/uboot_index.html</loc>
-            <lastmod>2021-03-24T18:10:05.497302</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/System_Development/uboot_logo.html</loc>
-            <lastmod>2021-03-24T18:10:05.498305</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 12.html</loc>
-            <lastmod>2021-03-24T18:08:27.009320</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 2.html</loc>
-            <lastmod>2021-03-24T18:08:27.010515</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 3.html</loc>
-            <lastmod>2021-03-24T18:08:27.011218</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 4.html</loc>
-            <lastmod>2021-03-24T18:08:27.011970</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 5.html</loc>
-            <lastmod>2021-03-24T18:08:27.012731</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 6.html</loc>
-            <lastmod>2021-03-24T18:08:27.013499</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 7.html</loc>
-            <lastmod>2021-03-24T18:08:27.014211</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 8.html</loc>
-            <lastmod>2021-03-24T18:08:27.015206</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/article 9.html</loc>
-            <lastmod>2021-03-24T18:08:27.016187</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/build_doc.html</loc>
-            <lastmod>2021-03-24T18:08:27.016929</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/contents.html</loc>
-            <lastmod>2021-03-24T18:08:27.017496</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Contribution/todolist.html</loc>
-            <lastmod>2021-03-24T18:08:27.018115</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/atmel_inter.html</loc>
-            <lastmod>2021-03-24T18:09:07.935729</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Zero-Doc/Drive/atmel_touch.html</loc>
-            <lastmod>2021-03-24T18:09:07.936608</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/three_uboot.html</loc>
+            <lastmod>2021-03-24T16:22:55.660971</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1113,42 +651,6 @@
         <url>
             <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/build_index.html</loc>
             <lastmod>2021-03-24T16:22:55.653582</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/devicetree.html</loc>
-            <lastmod>2021-03-24T16:22:55.653582</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/docker.html</loc>
-            <lastmod>2021-03-24T16:22:55.653582</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/kernel.html</loc>
-            <lastmod>2021-03-24T16:22:55.654581</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/onekey.html</loc>
-            <lastmod>2021-03-25T15:39:01.320444</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/rootfs.html</loc>
-            <lastmod>2021-03-24T16:22:55.655576</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/contribution/build_doc.html</loc>
-            <lastmod>2021-03-24T16:22:55.655983</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1195,38 +697,38 @@
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/index.html</loc>
-            <lastmod>2021-03-25T18:04:58.798313</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/devicetree.html</loc>
+            <lastmod>2021-03-24T16:22:55.653582</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/five_buidroot.html</loc>
-            <lastmod>2021-03-24T16:22:55.659979</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/docker.html</loc>
+            <lastmod>2021-03-24T16:22:55.653582</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/four_linux.html</loc>
-            <lastmod>2021-03-24T16:22:55.659979</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/kernel.html</loc>
+            <lastmod>2021-03-24T16:22:55.654581</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/one_openbox.html</loc>
-            <lastmod>2021-03-24T16:22:55.660971</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/onekey.html</loc>
+            <lastmod>2021-03-25T15:39:01.320444</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/three_uboot.html</loc>
-            <lastmod>2021-03-24T16:22:55.660971</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/build_sys/rootfs.html</loc>
+            <lastmod>2021-03-24T16:22:55.655576</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/step_by_step/two_sunxi-tools.html</loc>
-            <lastmod>2021-03-24T16:22:55.660971</lastmod>
+            <loc>https://wiki.sipeed.com/hardware/lichee/zh/Nano-Doc-Backup/contribution/build_doc.html</loc>
+            <lastmod>2021-03-24T16:22:55.655983</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1328,7 +830,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/modules/sp_mod/sp_ethernet.html</loc>
-            <lastmod>2021-03-24T16:22:57.575915</lastmod>
+            <lastmod>2021-03-26T17:03:25.858053</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -1826,7 +1328,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/get_started/board_info.html</loc>
-            <lastmod>2021-03-24T16:22:57.558960</lastmod>
+            <lastmod>2021-03-26T15:49:11.068547</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -2324,7 +1826,7 @@
         </url>
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy/zh/api_reference/machine/network.html</loc>
-            <lastmod>2021-03-24T16:22:57.502919</lastmod>
+            <lastmod>2021-03-26T17:04:52.111187</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
@@ -3667,6 +3169,24 @@
             <priority>1.0</priority>
         </url>
         <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy3/zh/install/maixii_m2dock/config.html</loc>
+            <lastmod>2021-03-24T16:22:57.662685</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy3/zh/install/maixii_m2dock/drive.html</loc>
+            <lastmod>2021-03-24T16:22:57.662685</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://wiki.sipeed.com/soft/maixpy3/zh/install/maixii_m2dock/flash.html</loc>
+            <lastmod>2021-03-24T16:22:57.662685</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
             <loc>https://wiki.sipeed.com/soft/maixpy3/zh/module/maix/camera.html</loc>
             <lastmod>2021-03-24T16:22:57.672655</lastmod>
             <changefreq>weekly</changefreq>
@@ -3723,24 +3243,6 @@
         <url>
             <loc>https://wiki.sipeed.com/soft/maixpy3/zh/index.html</loc>
             <lastmod>2021-03-24T16:22:57.674680</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy3/zh/install/maixii_m2dock/config.html</loc>
-            <lastmod>2021-03-24T16:22:57.662685</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy3/zh/install/maixii_m2dock/drive.html</loc>
-            <lastmod>2021-03-24T16:22:57.662685</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://wiki.sipeed.com/soft/maixpy3/zh/install/maixii_m2dock/flash.html</loc>
-            <lastmod>2021-03-24T16:22:57.662685</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>

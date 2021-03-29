@@ -96,7 +96,7 @@ var _hmt = _hmt || [];
 <li class="not_active with_link"><a href="/soft/maixpy/zh/what_maix_do.html"><span class="label">MaixPy 能做哪些事</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/soft/maixpy/zh/maixpy_history.html"><span class="label">MaixPy 发展历程</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/soft/maixpy/zh/thanks.html"><span class="label">致谢</span><span class=""></span></a></li>
-<li class="active_parent no_link"><a><span class="label">入门必看指南</span><span class="sub_indicator"></span></a><ul class="show">
+<li class="active_parent no_link"><a><span class="label">入门指南</span><span class="sub_indicator"></span></a><ul class="show">
 <li class="not_active with_link"><a href="/soft/maixpy/zh/how_to_read.html"><span class="label">如何正确阅读本文 (重要！！！)</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/soft/maixpy/zh/how_to_ask.html"><span class="label">如何优雅提问 (重要！！！)</span><span class=""></span></a></li>
 <li class="not_active no_link"><a><span class="label">开发板和配件选购指南</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
@@ -168,7 +168,7 @@ var _hmt = _hmt || [];
 </li>
 </ul>
 </li>
-<li class="not_active no_link"><a><span class="label">MaixPy 手把手教程</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active no_link"><a><span class="label">进阶教程</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active with_link"><a href="/soft/maixpy/zh/course/index.html"><span class="label">教程说明</span><span class=""></span></a></li>
 <li class="not_active no_link"><a><span class="label">基本图像处理</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active no_link"><a><span class="label">图像获取和显示</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
@@ -434,9 +434,29 @@ led_r.value(0)
 
 <p>而这份代码同时支持 MaixPy 所有硬件运行，并且打印的 board_info.LED_R 都不尽相同，通过它保证示例代码的一致性。</p>
 
-<h3 id="board">board 的配置方法</h3>
+<h2 id="board">board 的配置方法</h2>
 
 <p>将以下链接对应的 python 代码复制出来（如 config_maix_bit.py），放到 IDE 编辑框中运行，即可完成对『你的硬件』配置项（config.json）的导入，它会在 flash 上存储该配置文件。</p>
+
+<ol>
+<li><p>Maix Bit<br />
+<a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_bit.py">config_maix_bit.py</a></p></li>
+<li><p>Maix Dock<br />
+<a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_dock.py">config_maix_dock.py</a></p></li>
+<li><p>Maix Go<br />
+<a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_go.py">config_maix_go.py</a></p></li>
+<li><p>Maix Duino<br />
+<a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_duino.py">config_maix_duino.py</a></p></li>
+<li><p>Maix Cube<br />
+<a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_cube.py">config_maix_cube.py</a></p></li>
+<li><p>Maix Amigo<br />
+<a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_amigo.py">config_maix_amigo.py</a></p></li>
+<li><p>Maix Nano</p>
+
+<blockquote>
+  <p>这个没有硬件外设.....所以不要问为什么没有它的配置代码了。</p>
+</blockquote></li>
+</ol>
 
 <p>运行配置代码后会自动重启，此时代码中才可以调用 board_info.BOOT_KEY , 实际上 board_info.BOOT_KEY 就是指 IO 16 ，对应的定义在 config.json 中可以得知，如果不存在的资源将会报错，如没有 LED 定义的硬件，运行 LED 点亮的时候就会报错。</p>
 
@@ -445,41 +465,11 @@ led_r.value(0)
 print(board_info.BOOT_KEY, board_info.BOOT_KEY == 16)
 </code></pre>
 
-<h3 id="maix-bit">Maix Bit</h3>
-
-<p><a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_bit.py">config_maix_bit.py</a></p>
-
-<h3 id="maix-dock">Maix Dock</h3>
-
-<p><a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_dock.py">config_maix_dock.py</a></p>
-
-<h3 id="maix-go">Maix Go</h3>
-
-<p><a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_go.py">config_maix_go.py</a></p>
-
-<h3 id="maix-duino">Maix Duino</h3>
-
-<p><a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_duino.py">config_maix_duino.py</a></p>
-
-<h3 id="maix-cube">Maix Cube</h3>
-
-<p><a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_cube.py">config_maix_cube.py</a></p>
-
-<h3 id="maix-amigo">Maix Amigo</h3>
-
-<p><a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board/config_maix_amigo.py">config_maix_amigo.py</a></p>
-
-<h3 id="maix-nano">Maix Nano</h3>
-
-<blockquote>
-  <p>这个没有硬件外设.....所以不要问为什么没有它的配置代码了。</p>
-</blockquote>
-
-<h3 id="-1">创建你的专属硬件</h3>
+<h2 id="-1">创建你的专属硬件</h2>
 
 <p>你可以借助该接口代码适配你的硬件，配置方法参考 <a href="https://github.com/sipeed/MaixPy_scripts/tree/master/board">MaixPy_scripts/board</a> 里面有供你参考的配置文件。</p>
 
-<h3 id="board-2">board 的使用方法</h3>
+<h2 id="board-2">board 的使用方法</h2>
 
 <p>导入配置：</p>
 

@@ -96,7 +96,7 @@ var _hmt = _hmt || [];
 <li class="not_active with_link"><a href="/soft/maixpy/zh/what_maix_do.html"><span class="label">MaixPy 能做哪些事</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/soft/maixpy/zh/maixpy_history.html"><span class="label">MaixPy 发展历程</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/soft/maixpy/zh/thanks.html"><span class="label">致谢</span><span class=""></span></a></li>
-<li class="not_active no_link"><a><span class="label">入门必看指南</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active no_link"><a><span class="label">入门指南</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active with_link"><a href="/soft/maixpy/zh/how_to_read.html"><span class="label">如何正确阅读本文 (重要！！！)</span><span class=""></span></a></li>
 <li class="not_active with_link"><a href="/soft/maixpy/zh/how_to_ask.html"><span class="label">如何优雅提问 (重要！！！)</span><span class=""></span></a></li>
 <li class="not_active no_link"><a><span class="label">开发板和配件选购指南</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
@@ -168,7 +168,7 @@ var _hmt = _hmt || [];
 </li>
 </ul>
 </li>
-<li class="not_active no_link"><a><span class="label">MaixPy 手把手教程</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
+<li class="not_active no_link"><a><span class="label">进阶教程</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active with_link"><a href="/soft/maixpy/zh/course/index.html"><span class="label">教程说明</span><span class=""></span></a></li>
 <li class="not_active no_link"><a><span class="label">基本图像处理</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
 <li class="not_active no_link"><a><span class="label">图像获取和显示</span><span class="sub_indicator sub_indicator_collapsed"></span></a><ul class="">
@@ -419,16 +419,14 @@ var _hmt = _hmt || [];
 
 <p>使用<code>WiFi</code>请确保已经接上了天线</p>
 
-<h3 id="esp8285networkesp8285uart"><a href="##network.ESP8285(uart)">esp8285</a></h3>
-
-<p>在部分开发板上带了 一个 使用<code>AT</code>方式交互的网卡模块，比如<code>esp8285</code>，与<code>k210</code>通过串口连接</p>
+<p><strong><a href="##network.ESP8285(uart)">esp8285</a></strong><br />
+在部分开发板上带了 一个 使用<code>AT</code>方式交互的网卡模块，比如<code>esp8285</code>，与<code>k210</code>通过串口连接</p>
 
 <p>引脚<code>8</code>是使能脚，可以创建一个<code>GPIO</code>对象来控制它的高低电平来实现使能和失能，也可以用它复位（先低后高），复位后需要等待一小段时间才能操作，<br />
 可以查看例程<a href="https://github.com/sipeed/MaixPy_scripts/blob/79a5485ec983e67bb8861305a52418b29e0dc205/network/network_espat.py">network_espat.py</a></p>
 
-<h3 id="esp32networkesp32_spicsrstrdymosimisosclk"><a href="##network.ESP32_SPI(cs,rst,rdy,mosi,miso,sclk)">esp32</a></h3>
-
-<p>目前在<code>MaixDuino</code>开发板中有一个 <code>esp32</code> 模块通过 <code>spi</code> 与<code>k210</code>相连<br />
+<p><strong><a href="##network.ESP32_SPI(cs,rst,rdy,mosi,miso,sclk)">esp32</a></strong><br />
+目前在<code>MaixDuino</code>开发板中有一个 <code>esp32</code> 模块通过 <code>spi</code> 与<code>k210</code>相连<br />
 同时也有单独的<code>TF</code>插卡式模块</p>
 
 <h2 id="networkesp8285uart">network.ESP8285(uart)</h2>
